@@ -1,0 +1,114 @@
+<!-- Header -->
+<header id="header">
+    <!-- Center Header -->
+    <div id="center-header">
+        <div class="container">
+            <div class="header-logo">
+                <a href="#" class="logo">
+                    <img src="./img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="header-ads">
+                <img class="center-block" src="./img/ad-2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- /Center Header -->
+</header>
+<!-- /Header -->
+
+
+<!-- SECTION -->
+<div class="section">
+    <!-- CONTAINER -->
+    <div class="container-fluid">
+        <!-- ROW -->
+        <div class="row">
+            <!-- Main Column -->
+            <div class="col-md-12">
+                <!-- section title -->
+                <div class="section-title">
+                    <h2 class="title">Trending Posts</h2>
+                    <!-- tab nav -->
+                    <ul class="nav nav-tabs pull-right" role="tablist">
+                        <li class="active">
+                            <a data-toggle="tab" ng-click="getNews('all')">International</a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" ng-click="getNews('general')">General</a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" ng-click="getNews('business')">Business</a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" ng-click="getNews('entertainment')">Entertainment</a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" ng-click="getNews('health')">Health</a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" ng-click="getNews('science')">Science</a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" ng-click="getNews('sport')">Sport</a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" ng-click="getNews('technology')">Technology</a>
+                        </li>
+                    </ul>
+                    <!-- /tab nav -->
+                </div>
+                </div>
+                </div>
+                </div>
+
+                <!-- /section title -->
+                <!-- Tab content -->
+                <div id="all" class="tab-content">
+                    <!-- tab1 -->
+                    <div class="tab-pane fade in active">
+                        <!-- row -->
+                        <div class="row" style="display:flex;flex-wrap:wrap;">
+                            <div class="col-md-3" ng-repeat="news in newsSource">
+                                <div>
+                                        <a href="{{news.url}}" target="_blank">
+                                            <img src="{{news.urlToImage}}" height="150" width="300" alt="Image not Available">
+                                        </a>
+                                        <h6>
+                                         <a href="{{news.url}}" target="_blank">
+                                          <b>{{news.title}}:</b>
+                                          <i>{{news.description}}</i>
+                                        </a>
+                                        </h6>
+                                </div>
+                                     
+
+                                    
+                                    </div>
+                        </div>
+                                <hr/>
+                                <!-- /ARTICLE -->
+                            </div>
+                        </div>
+                        <!-- /row -->
+                    </div>
+                    <!-- /Main Column -->
+                
+                <!-- Tab content -->
+                <!-- END OF TABS -->
+                <!-- /ROW -->
+            
+            <!-- /CONTAINER -->
+        <!-- /SECTION -->
+        <!-- /FOOTER -->
+
+        <!-- Back to top -->
+        <div id="back-to-top"></div>
+        <!-- Back to top -->
+        <script>
+	$('#back-to-top').on("click", function(){
+		$('body,html').animate({
+            scrollTop: 0
+        }, 500);
+	});
+        </script>

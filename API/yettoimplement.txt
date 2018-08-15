@@ -1,0 +1,30 @@
+'''reuters--need to implement gensim
+response = requests.get('http://feeds.reuters.com/reuters/INworldNews')
+root = etree.fromstring(response.content)
+for newsItem in root.iter('item'):
+    data = {}
+    data['title'] = newsItem.find('title').text
+    desc = newsItem.find('description').text
+    if "<" in desc:
+        temp_desc = desc[0:desc.index('<')]
+        data['description'] = temp_desc
+    else:
+        data['description'] = desc
+    data['url'] = newsItem.find('link').text
+    news['articles'].append(data)
+json_data = json.dumps(news)
+print json_data
+'''
+
+'''
+response = requests.get('https://www.sciencedaily.com/rss/all.xml')
+root = etree.fromstring(response.content)
+for newsItem in root.iter('item'):
+    data = {}
+    data['title'] = newsItem.find('title').text
+    data['description'] = newsItem.find('description').text
+    data['url'] = newsItem.find('link').text
+    data['publishedAt'] = newsItem.find('pubDate').text
+    data['urlToImage'] = newsItem.find('media:thumbnail',newsItem.nsmap).attrib['url']
+    mainData['articles'].append(data)
+'''

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[BBC News - World]]></title>
+        <description><![CDATA[BBC News - World]]></description>
+        <link>https://www.bbc.co.uk/news/</link>
+        <image>
+            <url>https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+            <title>BBC News - World</title>
+            <link>https://www.bbc.co.uk/news/</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Thu, 14 Jun 2018 15:27:06 GMT</lastBuildDate>
+        <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
+        <language><![CDATA[en-gb]]></language>
+        <ttl>15</ttl>
+        <item>
+            <title><![CDATA[New York sues Trump Foundation for 'illegal conduct']]></title>
+            <description><![CDATA[The lawsuit accuses the Trump Foundation of "persistent illegal conduct" related to the 2016 election.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-44486250</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-44486250</guid>
+            <pubDate>Thu, 14 Jun 2018 15:23:21 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/47CE/production/_102028381_mediaitem102028377.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Argentina steps closer to legalising abortion]]></title>
+            <description><![CDATA[The lower house backs a bill legalising abortion in the first 14 weeks of pregnancy, but hurdles remain.]]></description>
+            <link>https://www.bbc.co.uk/news/world-latin-america-44486190</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-44486190</guid>
+            <pubDate>Thu, 14 Jun 2018 14:57:52 GMT</pubDate>
+            <media:thumbnail width="768" height="432" url="http://c.files.bbci.co.uk/1D93/production/_102017570_mediaitem102017569.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA['Martyr of the A10': DNA leads to France arrests over 1987 murder]]></title>
+            <description><![CDATA[A couple is arrested 31 years after the mutilated body of their daughter was found near a motorway.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-44479378</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-44479378</guid>
+            <pubDate>Thu, 14 Jun 2018 12:03:57 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/D234/production/_102021835_blur1.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Hungary jails gang for deaths of 71 migrants in lorry]]></title>
+            <description><![CDATA[The suffocation of 71 migrants in a sealed lorry shocked the world in August 2015.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-44481439</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-44481439</guid>
+            <pubDate>Thu, 14 Jun 2018 13:17:35 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/4332/production/_90920271_gettyimages-485346254.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Kashmir journalist Shujaat Bukhari shot dead in Srinigar]]></title>
+            <description><![CDATA[Shujaat Bukhari, a BBC contributor, is killed outside the offices of Rising Kashmir, which he edited.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-india-44488081</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-india-44488081</guid>
+            <pubDate>Thu, 14 Jun 2018 15:18:10 GMT</pubDate>
+            <media:thumbnail width="464" height="261" url="http://c.files.bbci.co.uk/156DC/production/_102027778_bukhari.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Comey 'broke norms but not biased' - agency watchdog report]]></title>
+            <description><![CDATA[The report criticises ex-FBI director James Comey for his handling of the Hillary Clinton investigation.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-44488351</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-44488351</guid>
+            <pubDate>Thu, 14 Jun 2018 15:25:25 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/EF53/production/_97176216_breaking_news_bigger.png"/>
+        </item>
+        <item>
+            <title><![CDATA[Macrons' new dinner plates spark French cash row]]></title>
+            <description><![CDATA[France's presidential couple are the centre of claims that a fortune is being spent on porcelain.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-44480957</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-44480957</guid>
+            <pubDate>Thu, 14 Jun 2018 11:33:42 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/16739/production/_102016919_047319496-2.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[American Will Nguyen held in Vietnam after protests]]></title>
+            <description><![CDATA[Yale graduate Will Nguyen from Houston, Texas, is being held for "disrupting public order".]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-44487200</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-44487200</guid>
+            <pubDate>Thu, 14 Jun 2018 15:06:22 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/120EA/production/_102026937_gettyimages-970696562.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Russian MP: Avoid sex with foreign men during World Cup]]></title>
+            <description><![CDATA[A Russian MP is criticised for urging women not to sleep with foreign men during the World Cup.]]></description>
+            <link>https://www.bbc.co.uk/news/blogs-trending-44481590</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/blogs-trending-44481590</guid>
+            <pubDate>Thu, 14 Jun 2018 11:20:25 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/89C7/production/_102017253_gettyimages-947024110.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[India Delhi residents choke as dust blankets capital]]></title>
+            <description><![CDATA[Many people are complaining the city has become unliveable as pollution climbs to hazardous levels.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-india-44480135</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-india-44480135</guid>
+            <pubDate>Thu, 14 Jun 2018 10:36:15 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/BCF3/production/_102017384_dust-delhi-13june.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Sri Lanka hardline monk Gnanasara jailed for intimidation]]></title>
+            <description><![CDATA[The jailing of Gnanasara is significant in a country that rarely convicts Buddhist monks.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-44479610</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-44479610</guid>
+            <pubDate>Thu, 14 Jun 2018 12:37:23 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/FB19/production/_102018246_f892fa86-2cbc-44fd-b1e2-ac87ac946aba.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Stan Lee: Marvel Comics magnate 'subject to elder abuse']]></title>
+            <description><![CDATA[A temporary restraining order has been issued against the 95-year-old's manager.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-44479535</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-44479535</guid>
+            <pubDate>Thu, 14 Jun 2018 07:57:37 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/4615/production/_102014971_gettyimages-950775152.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Mix-ups and fanfare: What no-one else saw at the Trump-Kim summit]]></title>
+            <description><![CDATA[A handshake-salute mix-up and a lavish send-off and return were just some of the incidents uniquely captured by the North Korean media.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-44485542</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-44485542</guid>
+            <pubDate>Thu, 14 Jun 2018 14:49:21 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/10916/production/_102026876_p06b2ckk.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Miss Iraq: The beauty queen who got death threats because of a selfie]]></title>
+            <description><![CDATA[Miss Iraq's family fled their homeland after being threatened over a selfie taken by their daughter.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-44477352</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-44477352</guid>
+            <pubDate>Thu, 14 Jun 2018 02:28:40 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/8053/production/_102015823_p06b0vqr_e.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[World Cup 2026: US, Canada and Mexico fans react]]></title>
+            <description><![CDATA[Canada, US & Mexico will host the biggest World Cup ever - but has the news come at the worst time?]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-44476588</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-44476588</guid>
+            <pubDate>Wed, 13 Jun 2018 23:11:02 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/BB5A/production/_102026974_p06b1hk1.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[World Cup Russia: Achilles the 'psychic' cat calls opener]]></title>
+            <description><![CDATA[Achilles the "oracle cat" has picked the home side to beat Saudi Arabia in the opening match of the World Cup.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-44477886</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-44477886</guid>
+            <pubDate>Thu, 14 Jun 2018 02:51:58 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/9615/production/_102012483_p06b0w3y.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Saiga antelopes: the Ice Age survivors now in peril]]></title>
+            <description><![CDATA[Scientists hope to save the saiga, a Central Asian antelope which survived the Ice Age, but is now in peril.]]></description>
+            <link>https://www.bbc.co.uk/news/44474048</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/44474048</guid>
+            <pubDate>Wed, 13 Jun 2018 23:12:17 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/0B23/production/_102015820_p06b0chf_e.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Antarctic ice sheets: Four things you need to know]]></title>
+            <description><![CDATA[With Antarctica shedding ice at an accelerating rate, here's what you need to know about continent's ice sheet.]]></description>
+            <link>https://www.bbc.co.uk/news/science-environment-44477430</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/science-environment-44477430</guid>
+            <pubDate>Wed, 13 Jun 2018 23:12:51 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/2531/production/_102012590_p06b0hbj.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Daredevil raccoon takes on skyscraper]]></title>
+            <description><![CDATA[The animal had been scaling scaling a 23-floor building in St Paul, Minnesota.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-44476578</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-44476578</guid>
+            <pubDate>Wed, 13 Jun 2018 19:19:56 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/16577/production/_102011519_p06b06j7.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Daredevil raccoon's Minnesota skyscraper climb]]></title>
+            <description><![CDATA[The internet is transfixed as the animal scales a 23-floor Minnesota building for nearly a day.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-44465587</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-44465587</guid>
+            <pubDate>Wed, 13 Jun 2018 15:17:47 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/C0F7/production/_101999394_evanfrost4.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Ugandan wins Africa prize for bloodless malaria test]]></title>
+            <description><![CDATA[The device detects signs of malaria by shining a red beam of light on the patient's finger.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-44481723</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-44481723</guid>
+            <pubDate>Thu, 14 Jun 2018 12:12:02 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/B7B8/production/_102023074_briangitta_36x.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Chinese house demolition halted because of swallow residents]]></title>
+            <description><![CDATA[Feathered residents have given an old Chinese house a stay of execution.]]></description>
+            <link>https://www.bbc.co.uk/news/blogs-news-from-elsewhere-44412745</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/blogs-news-from-elsewhere-44412745</guid>
+            <pubDate>Fri, 08 Jun 2018 10:05:02 GMT</pubDate>
+            <media:thumbnail width="594" height="334" url="http://c.files.bbci.co.uk/90A9/production/_101933073_501580343.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Chinese city gets 'smartphone zombie' walkway]]></title>
+            <description><![CDATA[A busy Chinese city hopes that a smartphone-only lane will make pedestrians feel safer.]]></description>
+            <link>https://www.bbc.co.uk/news/blogs-news-from-elsewhere-44383449</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/blogs-news-from-elsewhere-44383449</guid>
+            <pubDate>Wed, 06 Jun 2018 10:46:51 GMT</pubDate>
+            <media:thumbnail width="594" height="334" url="http://c.files.bbci.co.uk/149B0/production/_101900448_872706518.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Salah tackle turns up in Syrian law school exam]]></title>
+            <description><![CDATA[Exam question asks students to explain why Sergio Ramos cannot face prosecution for his contentious challenge.]]></description>
+            <link>https://www.bbc.co.uk/news/blogs-news-from-elsewhere-44360996</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/blogs-news-from-elsewhere-44360996</guid>
+            <pubDate>Mon, 04 Jun 2018 15:03:13 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/162DF/production/_101874809_hi047060264.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Sarah Sanders rumoured to be leaving White House press role]]></title>
+            <description><![CDATA[President Trump's press secretary took to social media to ridicule the news report, but did not deny it.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-44479635</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-44479635</guid>
+            <pubDate>Thu, 14 Jun 2018 15:25:52 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/B311/production/_102014854_mediaitem102014853.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Trump Kim summit: Imagine a North Korean family]]></title>
+            <description><![CDATA[What is life like for families in North Korea - and how could this change if sanctions are eased?]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-44164948</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-44164948</guid>
+            <pubDate>Thu, 14 Jun 2018 00:10:00 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/BA3F/production/_101997674_04.family02.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Why landlocked Ethiopia wants to launch a navy]]></title>
+            <description><![CDATA[Ethiopia has signed deals with several neighbouring countries for access to their ports.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-44369382</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-44369382</guid>
+            <pubDate>Thu, 14 Jun 2018 00:11:54 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/1D74/production/_102004570_976_2_imperial_ethiopian_navy_iwm.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[World Cup 2018: Russia promises 'unprecedented' security]]></title>
+            <description><![CDATA[Security cameras and elite units are being deployed in the 11 Russian cities hosting the World Cup.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-44466387</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-44466387</guid>
+            <pubDate>Wed, 13 Jun 2018 23:52:04 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/5EE2/production/_102009242_gettyimages-971904446.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Grenfell Tower: Global roots of fire victims]]></title>
+            <description><![CDATA[How the Grenfell Tower tragedy sent shockwaves around the world.]]></description>
+            <link>https://www.bbc.co.uk/news/world-44395591</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-44395591</guid>
+            <pubDate>Wed, 13 Jun 2018 23:18:52 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/88D8/production/_102023053_1photo.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[The deep-water port in Yemen's next battleground]]></title>
+            <description><![CDATA[Rebel-held Hudaydah's port is the lifeline for just under two-thirds of Yemen's population.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-44471977</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-44471977</guid>
+            <pubDate>Wed, 13 Jun 2018 14:31:32 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/89B2/production/_102005253_mediaitem102005252.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[World Cup 2026: Can the North American hosts get along?]]></title>
+            <description><![CDATA[The successful bid for the 2026 Fifa World Cup comes at a fraught time in North American relations.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-44459202</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-44459202</guid>
+            <pubDate>Wed, 13 Jun 2018 20:14:25 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/18291/production/_102016989_wc_comp_e_balls2.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Coming of age: Why adults in Japan are getting younger]]></title>
+            <description><![CDATA[This is the first time in 142 years that the age of adulthood has been changed.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-44465196</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-44465196</guid>
+            <pubDate>Wed, 13 Jun 2018 10:35:46 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/40D7/production/_101999561_gettyimages-902482480.jpg"/>
+        </item>
+    </channel>
+</rss>

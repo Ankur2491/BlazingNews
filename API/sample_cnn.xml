@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://rss.cnn.com/~d/styles/itemcontent.css"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+  <channel>
+    <title><![CDATA[CNN.com - RSS Channel - World]]></title>
+    <description><![CDATA[CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.]]></description>
+    <link>https://www.cnn.com/world/index.html</link>
+    <image>
+      <url>http://i2.cdn.turner.com/cnn/2015/images/09/24/cnn.digital.png</url>
+      <title>CNN.com - RSS Channel - World</title>
+      <link>https://www.cnn.com/world/index.html</link>
+    </image>
+    <generator>coredev-bumblebee</generator>
+    <lastBuildDate>Thu, 14 Jun 2018 16:56:57 GMT</lastBuildDate>
+    <pubDate>Thu, 14 Jun 2018 02:27:38 GMT</pubDate>
+    <copyright><![CDATA[Copyright (c) 2018 Turner Broadcasting System, Inc. All Rights Reserved.]]></copyright>
+    <language><![CDATA[en-US]]></language>
+    <ttl>10</ttl>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://rss.cnn.com/rss/edition_world" />
+    <feedburner:info uri="rss/edition_world" />
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+    <item>
+      <title><![CDATA[Stranded migrant ship reveals a fractured Europe]]></title>
+      <description>A rescue ship stranded in the Mediterranean Sea since Sunday is on its way to Spain, where the government has agreed to accept the 630 people on board.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/pyxC6LtNDM0" height="1" width="1" alt=""/&gt;</description>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/pyxC6LtNDM0/index.html</link>
+      <guid isPermaLink="false">https://www.cnn.com/2018/06/13/europe/migrant-ship-intl/index.html</guid>
+      <pubDate>Thu, 14 Jun 2018 13:13:09 GMT</pubDate>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613093707-08-aquarius-migrant-boat-0612-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613093707-08-aquarius-migrant-boat-0612-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613093707-08-aquarius-migrant-boat-0612-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613093707-08-aquarius-migrant-boat-0612-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613093707-08-aquarius-migrant-boat-0612-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613093707-08-aquarius-migrant-boat-0612-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613093707-08-aquarius-migrant-boat-0612-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613093707-08-aquarius-migrant-boat-0612-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613093707-08-aquarius-migrant-boat-0612-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613093707-08-aquarius-migrant-boat-0612-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613093707-08-aquarius-migrant-boat-0612-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <feedburner:origLink>https://www.cnn.com/2018/06/13/europe/migrant-ship-intl/index.html</feedburner:origLink>
+    </item>
+    <item>
+      <title><![CDATA['Exhausted' migrants rescued from ship begin four-day journey to Spain]]></title>
+      <description>The search-and-rescue ship stranded in the Mediterranean Sea since Sunday began its roughly 800-mile journey to Spain on Tuesday evening after transferring more than 500 rescued migrants to Italian Coast Guard and naval ships.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/UYXk2B9SrYM" height="1" width="1" alt=""/&gt;</description>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/UYXk2B9SrYM/index.html</link>
+      <guid isPermaLink="false">https://www.cnn.com/2018/06/12/europe/migrant-ship-italy-spain-rescue-operation-intl/index.html</guid>
+      <pubDate>Wed, 13 Jun 2018 17:07:25 GMT</pubDate>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180612105421-02-aquarius-migrant-boat-0612-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180612105421-02-aquarius-migrant-boat-0612-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180612105421-02-aquarius-migrant-boat-0612-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180612105421-02-aquarius-migrant-boat-0612-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180612105421-02-aquarius-migrant-boat-0612-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180612105421-02-aquarius-migrant-boat-0612-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180612105421-02-aquarius-migrant-boat-0612-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180612105421-02-aquarius-migrant-boat-0612-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180612105421-02-aquarius-migrant-boat-0612-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180612105421-02-aquarius-migrant-boat-0612-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180612105421-02-aquarius-migrant-boat-0612-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <feedburner:origLink>https://www.cnn.com/2018/06/12/europe/migrant-ship-italy-spain-rescue-operation-intl/index.html</feedburner:origLink>
+    </item>
+    <item>
+      <title><![CDATA[US Navy rescues migrants at sea off the coast of Libya]]></title>
+      <description>A US Navy ship rescued 40 migrants off the coast of Libya Tuesday, according to US military officials.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/ud0iA8EMR8Q" height="1" width="1" alt=""/&gt;</description>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/ud0iA8EMR8Q/index.html</link>
+      <guid isPermaLink="false">https://www.cnn.com/2018/06/12/politics/us-navy-rescues-libya-migrants/index.html</guid>
+      <pubDate>Tue, 12 Jun 2018 21:43:33 GMT</pubDate>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170828121803-migrant-boat-libya-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170828121803-migrant-boat-libya-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170828121803-migrant-boat-libya-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170828121803-migrant-boat-libya-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170828121803-migrant-boat-libya-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170828121803-migrant-boat-libya-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170828121803-migrant-boat-libya-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170828121803-migrant-boat-libya-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170828121803-migrant-boat-libya-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170828121803-migrant-boat-libya-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170828121803-migrant-boat-libya-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <feedburner:origLink>https://www.cnn.com/2018/06/12/politics/us-navy-rescues-libya-migrants/index.html</feedburner:origLink>
+    </item>
+    <item>
+      <title><![CDATA[Ways to help ongoing migrant crisis]]></title>
+      <description>So far this year more than 34,000 migrants and refugees have crossed the Mediterranean Sea seeking a new life. But more than 700 didn't make it, according to data from the United Nations High Commissioner for Refugees (UNHCR).&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/PjqE780Fpxo" height="1" width="1" alt=""/&gt;</description>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/PjqE780Fpxo/index.html</link>
+      <guid isPermaLink="false">https://www.cnn.com/2015/08/28/world/iyw-migrant-how-to-help/index.html</guid>
+      <pubDate>Mon, 11 Jun 2018 19:38:34 GMT</pubDate>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170530185510-01-migrant-rescue-cnnphotos-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170530185510-01-migrant-rescue-cnnphotos-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170530185510-01-migrant-rescue-cnnphotos-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170530185510-01-migrant-rescue-cnnphotos-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170530185510-01-migrant-rescue-cnnphotos-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170530185510-01-migrant-rescue-cnnphotos-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170530185510-01-migrant-rescue-cnnphotos-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170530185510-01-migrant-rescue-cnnphotos-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170530185510-01-migrant-rescue-cnnphotos-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170530185510-01-migrant-rescue-cnnphotos-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170530185510-01-migrant-rescue-cnnphotos-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <feedburner:origLink>https://www.cnn.com/2015/08/28/world/iyw-migrant-how-to-help/index.html</feedburner:origLink>
+    </item>
+    <item>
+      <title><![CDATA[Elon Musk's Boring Company set to build futuristic transport link in Chicago]]></title>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/LXsqeL1rNfo/index.html</link>
+      <guid isPermaLink="false">http://money.cnn.com/2018/06/14/technology/elon-musk-boring-company-chicago/index.html</guid>
+      <pubDate>Thu, 14 Jun 2018 15:43:07 GMT</pubDate>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614161759-boring-company-o-hare-super-169.jpeg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614161759-boring-company-o-hare-large-11.jpeg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614161759-boring-company-o-hare-vertical-large-gallery.jpeg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614161759-boring-company-o-hare-video-synd-2.jpeg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614161759-boring-company-o-hare-live-video.jpeg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614161759-boring-company-o-hare-t1-main.jpeg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614161759-boring-company-o-hare-vertical-gallery.jpeg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614161759-boring-company-o-hare-story-body.jpeg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614161759-boring-company-o-hare-t1-main.jpeg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614161759-boring-company-o-hare-assign.jpeg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614161759-boring-company-o-hare-hp-video.jpeg" height="144" width="256" />
+      </media:group>
+      <description>&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/LXsqeL1rNfo" height="1" width="1" alt=""/&gt;</description>
+      <feedburner:origLink>http://money.cnn.com/2018/06/14/technology/elon-musk-boring-company-chicago/index.html</feedburner:origLink>
+    </item>
+    <item>
+      <title><![CDATA[Apple closes law enforcement loophole for the iPhone]]></title>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/YtRwQiIzodA/index.html</link>
+      <guid isPermaLink="false">http://money.cnn.com/2018/06/13/technology/apple-iphone-law-enforcement/index.html</guid>
+      <pubDate>Thu, 14 Jun 2018 09:35:58 GMT</pubDate>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614122209-apple-vs-fbi-san-bernardino-iphone-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614122209-apple-vs-fbi-san-bernardino-iphone-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614122209-apple-vs-fbi-san-bernardino-iphone-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614122209-apple-vs-fbi-san-bernardino-iphone-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614122209-apple-vs-fbi-san-bernardino-iphone-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614122209-apple-vs-fbi-san-bernardino-iphone-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614122209-apple-vs-fbi-san-bernardino-iphone-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614122209-apple-vs-fbi-san-bernardino-iphone-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614122209-apple-vs-fbi-san-bernardino-iphone-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614122209-apple-vs-fbi-san-bernardino-iphone-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614122209-apple-vs-fbi-san-bernardino-iphone-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <description>&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/YtRwQiIzodA" height="1" width="1" alt=""/&gt;</description>
+      <feedburner:origLink>http://money.cnn.com/2018/06/13/technology/apple-iphone-law-enforcement/index.html</feedburner:origLink>
+    </item>
+    <item>
+      <title><![CDATA[Bitcoin prices have been manipulated, study says]]></title>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/rftrh2Dacj4/index.html</link>
+      <guid isPermaLink="false">http://money.cnn.com/2018/06/13/investing/bitcoin-blockchain-crypto/index.html</guid>
+      <pubDate>Wed, 13 Jun 2018 14:59:38 GMT</pubDate>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180327134037-taxes-bitcoin-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180327134037-taxes-bitcoin-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180327134037-taxes-bitcoin-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180327134037-taxes-bitcoin-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180327134037-taxes-bitcoin-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180327134037-taxes-bitcoin-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180327134037-taxes-bitcoin-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180327134037-taxes-bitcoin-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180327134037-taxes-bitcoin-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180327134037-taxes-bitcoin-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180327134037-taxes-bitcoin-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <description>&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/rftrh2Dacj4" height="1" width="1" alt=""/&gt;</description>
+      <feedburner:origLink>http://money.cnn.com/2018/06/13/investing/bitcoin-blockchain-crypto/index.html</feedburner:origLink>
+    </item>
+    <item>
+      <title><![CDATA[With all the hacks, is investing in bitcoin safe?]]></title>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/GgQEcmClkFs/index.html</link>
+      <guid isPermaLink="false">http://money.cnn.com/2018/06/13/investing/bitcoin-cryptocurrency-hacks-security/index.html</guid>
+      <pubDate>Wed, 13 Jun 2018 10:04:53 GMT</pubDate>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180330180243-bitcoin-wallet-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180330180243-bitcoin-wallet-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180330180243-bitcoin-wallet-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180330180243-bitcoin-wallet-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180330180243-bitcoin-wallet-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180330180243-bitcoin-wallet-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180330180243-bitcoin-wallet-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180330180243-bitcoin-wallet-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180330180243-bitcoin-wallet-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180330180243-bitcoin-wallet-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180330180243-bitcoin-wallet-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <description>&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/GgQEcmClkFs" height="1" width="1" alt=""/&gt;</description>
+      <feedburner:origLink>http://money.cnn.com/2018/06/13/investing/bitcoin-cryptocurrency-hacks-security/index.html</feedburner:origLink>
+    </item>
+    <item>
+      <title><![CDATA[Experts say this is the food of the future]]></title>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/_X6bo3DmYpQ/index.html</link>
+      <guid isPermaLink="false">http://money.cnn.com/2018/06/01/technology/algae-food/index.html</guid>
+      <pubDate>Fri, 01 Jun 2018 17:00:12 GMT</pubDate>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180602100504-rachel-crane-algae-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180602100504-rachel-crane-algae-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180602100504-rachel-crane-algae-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180602100504-rachel-crane-algae-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180602100504-rachel-crane-algae-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180602100504-rachel-crane-algae-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180602100504-rachel-crane-algae-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180602100504-rachel-crane-algae-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180602100504-rachel-crane-algae-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180602100504-rachel-crane-algae-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180602100504-rachel-crane-algae-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <description>&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/_X6bo3DmYpQ" height="1" width="1" alt=""/&gt;</description>
+      <feedburner:origLink>http://money.cnn.com/2018/06/01/technology/algae-food/index.html</feedburner:origLink>
+    </item>
+    <item>
+      <title><![CDATA[They built a bridge that forever changed this village]]></title>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/9OXHdT0NsdA/cnnheroes-harmon-kakenya-update.cnn</link>
+      <guid isPermaLink="false">https://www.cnn.com/videos/world/2018/06/07/cnnheroes-harmon-kakenya-update.cnn</guid>
+      <pubDate>Thu, 07 Jun 2018 18:07:30 GMT</pubDate>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180607144543-cnnheroes-harmon-kakenya-update-00020515-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180607144543-cnnheroes-harmon-kakenya-update-00020515-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180607144543-cnnheroes-harmon-kakenya-update-00020515-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180607144543-cnnheroes-harmon-kakenya-update-00020515-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180607144543-cnnheroes-harmon-kakenya-update-00020515-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180607144543-cnnheroes-harmon-kakenya-update-00020515-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180607144543-cnnheroes-harmon-kakenya-update-00020515-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180607144543-cnnheroes-harmon-kakenya-update-00020515-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180607144543-cnnheroes-harmon-kakenya-update-00020515-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180607144543-cnnheroes-harmon-kakenya-update-00020515-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180607144543-cnnheroes-harmon-kakenya-update-00020515-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <description>&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/9OXHdT0NsdA" height="1" width="1" alt=""/&gt;</description>
+      <feedburner:origLink>https://www.cnn.com/videos/world/2018/06/07/cnnheroes-harmon-kakenya-update.cnn</feedburner:origLink>
+    </item>
+    <item>
+      <title><![CDATA[She's empowering girls to pursue their dreams]]></title>
+      <description>Allison Williams introduces 2013 Top 10 CNN Hero Kakenya Ntaiya at "CNN Heroes: An All-Star Tribute."&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/MixxMBL4K14" height="1" width="1" alt=""/&gt;</description>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/MixxMBL4K14/cnnheroes-show-ntaiya.cnn</link>
+      <guid isPermaLink="false">https://www.cnn.com/videos/bestoftv/2013/12/18/cnnheroes-show-ntaiya.cnn</guid>
+      <pubDate>Mon, 04 Jun 2018 15:12:27 GMT</pubDate>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180607150908-cnnheroes-harmon-kakenya-update-00003912-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180607150908-cnnheroes-harmon-kakenya-update-00003912-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180607150908-cnnheroes-harmon-kakenya-update-00003912-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180607150908-cnnheroes-harmon-kakenya-update-00003912-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180607150908-cnnheroes-harmon-kakenya-update-00003912-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180607150908-cnnheroes-harmon-kakenya-update-00003912-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180607150908-cnnheroes-harmon-kakenya-update-00003912-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180607150908-cnnheroes-harmon-kakenya-update-00003912-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180607150908-cnnheroes-harmon-kakenya-update-00003912-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180607150908-cnnheroes-harmon-kakenya-update-00003912-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180607150908-cnnheroes-harmon-kakenya-update-00003912-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <feedburner:origLink>https://www.cnn.com/videos/bestoftv/2013/12/18/cnnheroes-show-ntaiya.cnn</feedburner:origLink>
+    </item>
+    <item>
+      <title><![CDATA[He's 'Bridging the Gap' to a better world]]></title>
+      <description>Aaron Eckhart introduces 2010 Top 10 CNN Hero Harmon Parker at "CNN Heroes: An All-Star Tribute."&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/dU5sfAa5nqM" height="1" width="1" alt=""/&gt;</description>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/dU5sfAa5nqM/cnnheroes-tribute-harmon-parker.cnn</link>
+      <guid isPermaLink="false">https://www.cnn.com/videos/tv/2018/06/05/cnnheroes-tribute-harmon-parker.cnn</guid>
+      <pubDate>Tue, 05 Jun 2018 20:24:28 GMT</pubDate>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180605161945-cnnheroes-tribute-harmon-parker-00045410-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180605161945-cnnheroes-tribute-harmon-parker-00045410-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180605161945-cnnheroes-tribute-harmon-parker-00045410-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180605161945-cnnheroes-tribute-harmon-parker-00045410-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180605161945-cnnheroes-tribute-harmon-parker-00045410-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180605161945-cnnheroes-tribute-harmon-parker-00045410-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180605161945-cnnheroes-tribute-harmon-parker-00045410-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180605161945-cnnheroes-tribute-harmon-parker-00045410-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180605161945-cnnheroes-tribute-harmon-parker-00045410-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180605161945-cnnheroes-tribute-harmon-parker-00045410-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180605161945-cnnheroes-tribute-harmon-parker-00045410-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <feedburner:origLink>https://www.cnn.com/videos/tv/2018/06/05/cnnheroes-tribute-harmon-parker.cnn</feedburner:origLink>
+    </item>
+    <item>
+      <title><![CDATA[Goodbye, old iPhone: This could be 40X better  ]]></title>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/2ljBSpruuXg/iphone-tsunami-advert</link>
+      <guid isPermaLink="false">https://www.fool.com/mms/mark/iphone-tsunami-advert?utm_source=cnn&amp;utm_medium=contentmarketing&amp;utm_campaign=super-iphonetsunami&amp;paid=9041&amp;waid=9041&amp;psource=erbccn7410000042&amp;wsource=erbccnwdg0000044</guid>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170821105452-cnnpartnerimage-fool-applestore-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170821105452-cnnpartnerimage-fool-applestore-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170821105452-cnnpartnerimage-fool-applestore-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170821105452-cnnpartnerimage-fool-applestore-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170821105452-cnnpartnerimage-fool-applestore-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170821105452-cnnpartnerimage-fool-applestore-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170821105452-cnnpartnerimage-fool-applestore-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170821105452-cnnpartnerimage-fool-applestore-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170821105452-cnnpartnerimage-fool-applestore-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170821105452-cnnpartnerimage-fool-applestore-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/170821105452-cnnpartnerimage-fool-applestore-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <description>&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/2ljBSpruuXg" height="1" width="1" alt=""/&gt;</description>
+      <feedburner:origLink>https://www.fool.com/mms/mark/iphone-tsunami-advert?utm_source=cnn&amp;utm_medium=contentmarketing&amp;utm_campaign=super-iphonetsunami&amp;paid=9041&amp;waid=9041&amp;psource=erbccn7410000042&amp;wsource=erbccnwdg0000044</feedburner:origLink>
+    </item>
+    <item>
+      <title><![CDATA[Bitcoin up 30,000X -- here's your backdoor in]]></title>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/YzzqOMxgl_A/backdoor-bitcoin-advert</link>
+      <guid isPermaLink="false">https://www.fool.com/mms/mark/backdoor-bitcoin-advert?utm_source=cnn&amp;utm_medium=contentmarketing&amp;utm_campaign=sar-nov2017-1&amp;paid=9081&amp;waid=9081&amp;psource=esaccn7410000072&amp;wsource=esaccnwdg0000075</guid>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/171231174010-cnnpartnerimage-fool-bitcoin-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/171231174010-cnnpartnerimage-fool-bitcoin-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/171231174010-cnnpartnerimage-fool-bitcoin-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/171231174010-cnnpartnerimage-fool-bitcoin-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/171231174010-cnnpartnerimage-fool-bitcoin-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/171231174010-cnnpartnerimage-fool-bitcoin-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/171231174010-cnnpartnerimage-fool-bitcoin-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/171231174010-cnnpartnerimage-fool-bitcoin-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/171231174010-cnnpartnerimage-fool-bitcoin-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/171231174010-cnnpartnerimage-fool-bitcoin-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/171231174010-cnnpartnerimage-fool-bitcoin-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <description>&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/YzzqOMxgl_A" height="1" width="1" alt=""/&gt;</description>
+      <feedburner:origLink>https://www.fool.com/mms/mark/backdoor-bitcoin-advert?utm_source=cnn&amp;utm_medium=contentmarketing&amp;utm_campaign=sar-nov2017-1&amp;paid=9081&amp;waid=9081&amp;psource=esaccn7410000072&amp;wsource=esaccnwdg0000075</feedburner:origLink>
+    </item>
+    <item>
+      <title><![CDATA[$19.9 trillion idea hidden in plain sight]]></title>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/en5SK57vOE0/gates-10-msft</link>
+      <guid isPermaLink="false">https://www.fool.com/mms/mark/gates-10-msft?utm_source=cnn&amp;utm_medium=contentmarketing&amp;utm_campaign=ai-10msfts&amp;paid=8976&amp;waid=8976&amp;psource=esaccn7410000070&amp;wsource=esaccnwdg0000073</guid>
+      <description>&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/en5SK57vOE0" height="1" width="1" alt=""/&gt;</description>
+      <feedburner:origLink>https://www.fool.com/mms/mark/gates-10-msft?utm_source=cnn&amp;utm_medium=contentmarketing&amp;utm_campaign=ai-10msfts&amp;paid=8976&amp;waid=8976&amp;psource=esaccn7410000070&amp;wsource=esaccnwdg0000073</feedburner:origLink>
+    </item>
+    <item>
+      <title />
+      <description>Britain's Queen Elizabeth II and Meghan, Duchess of Sussex, attended a day of public engagements together in the county of Cheshire, England, on Thursday, June 14. It was the first such outing for the Queen and the Duchess since Meghan joined the royal family following her marriage to Prince Harry in May.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/osIB565VTms" height="1" width="1" alt=""/&gt;</description>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/osIB565VTms/index.html</link>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614155933-01-meghan-markle-queen-elizabeth-unfurled-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614155933-01-meghan-markle-queen-elizabeth-unfurled-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614155933-01-meghan-markle-queen-elizabeth-unfurled-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614155933-01-meghan-markle-queen-elizabeth-unfurled-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614155933-01-meghan-markle-queen-elizabeth-unfurled-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614155933-01-meghan-markle-queen-elizabeth-unfurled-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614155933-01-meghan-markle-queen-elizabeth-unfurled-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614155933-01-meghan-markle-queen-elizabeth-unfurled-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614155933-01-meghan-markle-queen-elizabeth-unfurled-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614155933-01-meghan-markle-queen-elizabeth-unfurled-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614155933-01-meghan-markle-queen-elizabeth-unfurled-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <feedburner:origLink>https://www.cnn.com/2018/06/14/world/gallery/queen-elizabeth-meghan-first-engagement-intl/index.html</feedburner:origLink>
+    </item>
+    <item>
+      <title />
+      <description>Meghan, Duchess of Sussex, stepped out with Britain's Queen Elizabeth II for her first official engagements without her husband Prince Harry by her side. CNN's Anna Stewart reports.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/OLBTwPvaBiY" height="1" width="1" alt=""/&gt;</description>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/OLBTwPvaBiY/meghan-markle-queen-first-royal-outing-mxp.hln</link>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614082203-meghan-markle-atiende-evento-con-la-reina-lkl-claudia-rebaza-00022106-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614082203-meghan-markle-atiende-evento-con-la-reina-lkl-claudia-rebaza-00022106-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614082203-meghan-markle-atiende-evento-con-la-reina-lkl-claudia-rebaza-00022106-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614082203-meghan-markle-atiende-evento-con-la-reina-lkl-claudia-rebaza-00022106-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614082203-meghan-markle-atiende-evento-con-la-reina-lkl-claudia-rebaza-00022106-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614082203-meghan-markle-atiende-evento-con-la-reina-lkl-claudia-rebaza-00022106-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614082203-meghan-markle-atiende-evento-con-la-reina-lkl-claudia-rebaza-00022106-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614082203-meghan-markle-atiende-evento-con-la-reina-lkl-claudia-rebaza-00022106-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614082203-meghan-markle-atiende-evento-con-la-reina-lkl-claudia-rebaza-00022106-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614082203-meghan-markle-atiende-evento-con-la-reina-lkl-claudia-rebaza-00022106-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614082203-meghan-markle-atiende-evento-con-la-reina-lkl-claudia-rebaza-00022106-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <feedburner:origLink>https://www.cnn.com/videos/world/2018/06/14/meghan-markle-queen-first-royal-outing-mxp.hln</feedburner:origLink>
+    </item>
+    <item>
+      <title />
+      <description>North Korea's state media airs the warm welcome the country's leader Kim Jong Un received upon his return to Pyongyang.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/yLbiRvUSQzg" height="1" width="1" alt=""/&gt;</description>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/yLbiRvUSQzg/kim-jong-un-kctv-first-footage-lon-orig.cnn</link>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614170219-05-kim-north-korea-flowers-airport-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614170219-05-kim-north-korea-flowers-airport-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614170219-05-kim-north-korea-flowers-airport-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614170219-05-kim-north-korea-flowers-airport-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614170219-05-kim-north-korea-flowers-airport-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614170219-05-kim-north-korea-flowers-airport-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614170219-05-kim-north-korea-flowers-airport-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614170219-05-kim-north-korea-flowers-airport-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614170219-05-kim-north-korea-flowers-airport-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614170219-05-kim-north-korea-flowers-airport-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614170219-05-kim-north-korea-flowers-airport-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <feedburner:origLink>https://www.cnn.com/videos/world/2018/06/14/kim-jong-un-kctv-first-footage-lon-orig.cnn</feedburner:origLink>
+    </item>
+    <item>
+      <title />
+      <description>Ibrahim Manna, Managing Dir. of Careem, talks about how the company became the region's largest ride-hailing platform since launching in 2012 in Dubai.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/r1mloMyIxc4" height="1" width="1" alt=""/&gt;</description>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/r1mloMyIxc4/marketplace-africa-careem-ibrahim-manna-dubai-b.cnn</link>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150352-marketplace-africa-careem-ibrahim-manna-dubai-b-00002105-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150352-marketplace-africa-careem-ibrahim-manna-dubai-b-00002105-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150352-marketplace-africa-careem-ibrahim-manna-dubai-b-00002105-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150352-marketplace-africa-careem-ibrahim-manna-dubai-b-00002105-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150352-marketplace-africa-careem-ibrahim-manna-dubai-b-00002105-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150352-marketplace-africa-careem-ibrahim-manna-dubai-b-00002105-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150352-marketplace-africa-careem-ibrahim-manna-dubai-b-00002105-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150352-marketplace-africa-careem-ibrahim-manna-dubai-b-00002105-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150352-marketplace-africa-careem-ibrahim-manna-dubai-b-00002105-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150352-marketplace-africa-careem-ibrahim-manna-dubai-b-00002105-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150352-marketplace-africa-careem-ibrahim-manna-dubai-b-00002105-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <feedburner:origLink>https://www.cnn.com/videos/world/2018/06/13/marketplace-africa-careem-ibrahim-manna-dubai-b.cnn</feedburner:origLink>
+    </item>
+    <item>
+      <title />
+      <description>North Korea state media aired a 42-minute long video showing behind-the-scenes footage of President Trump and Kim Jong Un's unprecedented trip, including a moment showing Trump saluting a North Korean general.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/JWkyUcW0ppo" height="1" width="1" alt=""/&gt;</description>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/JWkyUcW0ppo/north-korea-state-media-airs-unseen-video-trump-salute-general.cnn</link>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614092155-01-trump-nk-salute-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614092155-01-trump-nk-salute-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614092155-01-trump-nk-salute-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614092155-01-trump-nk-salute-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614092155-01-trump-nk-salute-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614092155-01-trump-nk-salute-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614092155-01-trump-nk-salute-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614092155-01-trump-nk-salute-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614092155-01-trump-nk-salute-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614092155-01-trump-nk-salute-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614092155-01-trump-nk-salute-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <feedburner:origLink>https://www.cnn.com/videos/world/2018/06/14/north-korea-state-media-airs-unseen-video-trump-salute-general.cnn</feedburner:origLink>
+    </item>
+    <item>
+      <title><![CDATA[Einstein travel diaries reveal racist streak]]></title>
+      <description>Travel logs written by famed physicist and anti-racism campaigner Albert Einstein reveal that the scientist held some racist and xenophobic views.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/ckAZJJ7Kzj8" height="1" width="1" alt=""/&gt;</description>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/ckAZJJ7Kzj8/index.html</link>
+      <guid isPermaLink="false">https://www.cnn.com/2018/06/14/world/albert-einstein-travel-diaries-intl/index.html</guid>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/111104154239-albert-einstein-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/111104154239-albert-einstein-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/111104074239-albert-einstein-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/111104074239-albert-einstein-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/111104074239-albert-einstein-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/111104074239-albert-einstein-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/111104074239-albert-einstein-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/111104074239-albert-einstein-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/111104074239-albert-einstein-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/111104074239-albert-einstein-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/111104074239-albert-einstein-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <feedburner:origLink>https://www.cnn.com/2018/06/14/world/albert-einstein-travel-diaries-intl/index.html</feedburner:origLink>
+    </item>
+    <item>
+      <title />
+      <description>The Ugandan government has embarked on a round of infrastructure projects to smooth the country's poor road networks.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/nABlBbHqhMg" height="1" width="1" alt=""/&gt;</description>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/nABlBbHqhMg/marketplace-africa-uganda-roads-infrastructure-government-a.cnn</link>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150438-marketplace-africa-uganda-roads-infrastructure-government-a-00002920-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150438-marketplace-africa-uganda-roads-infrastructure-government-a-00002920-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150438-marketplace-africa-uganda-roads-infrastructure-government-a-00002920-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150438-marketplace-africa-uganda-roads-infrastructure-government-a-00002920-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150438-marketplace-africa-uganda-roads-infrastructure-government-a-00002920-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150438-marketplace-africa-uganda-roads-infrastructure-government-a-00002920-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150438-marketplace-africa-uganda-roads-infrastructure-government-a-00002920-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150438-marketplace-africa-uganda-roads-infrastructure-government-a-00002920-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150438-marketplace-africa-uganda-roads-infrastructure-government-a-00002920-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150438-marketplace-africa-uganda-roads-infrastructure-government-a-00002920-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150438-marketplace-africa-uganda-roads-infrastructure-government-a-00002920-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <feedburner:origLink>https://www.cnn.com/videos/world/2018/06/13/marketplace-africa-uganda-roads-infrastructure-government-a.cnn</feedburner:origLink>
+    </item>
+    <item>
+      <title />
+      <description>It's been one year since the devastating fire that engulfed Grenfell Tower and claimed 72 lives in West London. CNN's Nick Glass pays tribute to the victims with traumatic testimonies from bereaved friends and family.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/WOA6KbHOdPQ" height="1" width="1" alt=""/&gt;</description>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/WOA6KbHOdPQ/grenfell-tower-one-year-later-nick-glass.cnn</link>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613163501-02-grenfell-tower-one-year-later-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613163501-02-grenfell-tower-one-year-later-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613163501-02-grenfell-tower-one-year-later-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613163501-02-grenfell-tower-one-year-later-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613163501-02-grenfell-tower-one-year-later-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613163501-02-grenfell-tower-one-year-later-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613163501-02-grenfell-tower-one-year-later-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613163501-02-grenfell-tower-one-year-later-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613163501-02-grenfell-tower-one-year-later-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613163501-02-grenfell-tower-one-year-later-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613163501-02-grenfell-tower-one-year-later-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <feedburner:origLink>https://www.cnn.com/videos/world/2018/06/14/grenfell-tower-one-year-later-nick-glass.cnn</feedburner:origLink>
+    </item>
+    <item>
+      <title />
+      <description>A woman is murdered in El Salvador every 19 hours, CNN's Nick Paton Walsh reports on gang violence in the country.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/DLcr0KURB8A" height="1" width="1" alt=""/&gt;</description>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/DLcr0KURB8A/gangs-in-el-salvador-women-as-equals-lon-orig.cnn</link>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180530110946-02-cnn-el-salvador-women-jennifer-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180530110946-02-cnn-el-salvador-women-jennifer-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180530110946-02-cnn-el-salvador-women-jennifer-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180530110946-02-cnn-el-salvador-women-jennifer-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180530110946-02-cnn-el-salvador-women-jennifer-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180530110946-02-cnn-el-salvador-women-jennifer-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180530110946-02-cnn-el-salvador-women-jennifer-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180530110946-02-cnn-el-salvador-women-jennifer-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180530110946-02-cnn-el-salvador-women-jennifer-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180530110946-02-cnn-el-salvador-women-jennifer-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180530110946-02-cnn-el-salvador-women-jennifer-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <feedburner:origLink>https://www.cnn.com/videos/world/2018/06/13/gangs-in-el-salvador-women-as-equals-lon-orig.cnn</feedburner:origLink>
+    </item>
+    <item>
+      <title />
+      <description>CNN's John Vause speaks to the founder of Destiny Pictures, an independent production company in Hollywood, who says that he and his company were not involved in creating the video President Trump showed Kim Jong Un in Singapore, despite being credited.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/7m6yeIm1eG4" height="1" width="1" alt=""/&gt;</description>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/7m6yeIm1eG4/founder-destiny-pictures-trump-peace-video-summit-intv-sot.cnn</link>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614025018-destiny-pictures-founder-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614025018-destiny-pictures-founder-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614025018-destiny-pictures-founder-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614025018-destiny-pictures-founder-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614025018-destiny-pictures-founder-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614025018-destiny-pictures-founder-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614025018-destiny-pictures-founder-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614025018-destiny-pictures-founder-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614025018-destiny-pictures-founder-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614025018-destiny-pictures-founder-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614025018-destiny-pictures-founder-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <feedburner:origLink>https://www.cnn.com/videos/world/2018/06/14/founder-destiny-pictures-trump-peace-video-summit-intv-sot.cnn</feedburner:origLink>
+    </item>
+    <item>
+      <title />
+      <description>The Japanese government enacted a bill lowering the age of adulthood from 20 to 18, but the legal age of drinking will stay fixed at 20.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/kxrn78-1J2E" height="1" width="1" alt=""/&gt;</description>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/kxrn78-1J2E/japan-age-adulthood.cnn</link>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614110655-japan-kimonos-0614-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614110655-japan-kimonos-0614-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614110655-japan-kimonos-0614-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614110655-japan-kimonos-0614-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614110655-japan-kimonos-0614-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614110655-japan-kimonos-0614-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614110655-japan-kimonos-0614-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614110655-japan-kimonos-0614-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614110655-japan-kimonos-0614-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614110655-japan-kimonos-0614-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180614110655-japan-kimonos-0614-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <feedburner:origLink>https://www.cnn.com/videos/world/2018/06/14/japan-age-adulthood.cnn</feedburner:origLink>
+    </item>
+    <item>
+      <title><![CDATA[Solstice Fast Facts]]></title>
+      <description>Read CNN's Fast Facts on the solstice.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/aMutFKjAfeY" height="1" width="1" alt=""/&gt;</description>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/aMutFKjAfeY/index.html</link>
+      <guid isPermaLink="false">https://www.cnn.com/2013/06/03/world/solstice-fast-facts/index.html</guid>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/151028103646-stonehenge-sunset-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/151028103646-stonehenge-sunset-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/151028103646-stonehenge-sunset-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/151028103646-stonehenge-sunset-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/151028103646-stonehenge-sunset-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/151028103646-stonehenge-sunset-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/151028103646-stonehenge-sunset-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/151028103646-stonehenge-sunset-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/151028103646-stonehenge-sunset-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/151028103646-stonehenge-sunset-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/151028103646-stonehenge-sunset-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <feedburner:origLink>https://www.cnn.com/2013/06/03/world/solstice-fast-facts/index.html</feedburner:origLink>
+    </item>
+    <item>
+      <title />
+      <description>The CEO of Plexus Group, Nick Earlam, talks about the company's decision to expand from a cotton trader to a sustainable cotton supply from seed development to end product.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/YwnoCzi4cu8" height="1" width="1" alt=""/&gt;</description>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/YwnoCzi4cu8/marketplace-africa-cotton-plexus-group-nick-earlam-b.cnn</link>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613153812-marketplace-africa-cotton-plexus-group-nick-earlam-b-00001511-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613153812-marketplace-africa-cotton-plexus-group-nick-earlam-b-00001511-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613153812-marketplace-africa-cotton-plexus-group-nick-earlam-b-00001511-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613153812-marketplace-africa-cotton-plexus-group-nick-earlam-b-00001511-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613153812-marketplace-africa-cotton-plexus-group-nick-earlam-b-00001511-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613153812-marketplace-africa-cotton-plexus-group-nick-earlam-b-00001511-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613153812-marketplace-africa-cotton-plexus-group-nick-earlam-b-00001511-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613153812-marketplace-africa-cotton-plexus-group-nick-earlam-b-00001511-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613153812-marketplace-africa-cotton-plexus-group-nick-earlam-b-00001511-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613153812-marketplace-africa-cotton-plexus-group-nick-earlam-b-00001511-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613153812-marketplace-africa-cotton-plexus-group-nick-earlam-b-00001511-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <feedburner:origLink>https://www.cnn.com/videos/world/2018/06/13/marketplace-africa-cotton-plexus-group-nick-earlam-b.cnn</feedburner:origLink>
+    </item>
+    <item>
+      <title />
+      <description>The high demand for charcoal in Kenya is leading to major issues like deforestation, and now companies are finding ways to use it sustainably.&lt;img src="http://feeds.feedburner.com/~r/rss/edition_world/~4/uRvLBxH0X-c" height="1" width="1" alt=""/&gt;</description>
+      <link>http://rss.cnn.com/~r/rss/edition_world/~3/uRvLBxH0X-c/marketplace-africa-kenya-charcoal-deforestation-a.cnn</link>
+      <media:group>
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150522-marketplace-africa-kenya-charcoal-deforestation-a-00013613-super-169.jpg" height="619" width="1100" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150522-marketplace-africa-kenya-charcoal-deforestation-a-00013613-large-11.jpg" height="300" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150522-marketplace-africa-kenya-charcoal-deforestation-a-00013613-vertical-large-gallery.jpg" height="552" width="414" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150522-marketplace-africa-kenya-charcoal-deforestation-a-00013613-video-synd-2.jpg" height="480" width="640" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150522-marketplace-africa-kenya-charcoal-deforestation-a-00013613-live-video.jpg" height="324" width="576" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150522-marketplace-africa-kenya-charcoal-deforestation-a-00013613-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150522-marketplace-africa-kenya-charcoal-deforestation-a-00013613-vertical-gallery.jpg" height="360" width="270" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150522-marketplace-africa-kenya-charcoal-deforestation-a-00013613-story-body.jpg" height="169" width="300" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150522-marketplace-africa-kenya-charcoal-deforestation-a-00013613-t1-main.jpg" height="250" width="250" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150522-marketplace-africa-kenya-charcoal-deforestation-a-00013613-assign.jpg" height="186" width="248" />
+        <media:content medium="image" url="https://cdn.cnn.com/cnnnext/dam/assets/180613150522-marketplace-africa-kenya-charcoal-deforestation-a-00013613-hp-video.jpg" height="144" width="256" />
+      </media:group>
+      <feedburner:origLink>https://www.cnn.com/videos/world/2018/06/13/marketplace-africa-kenya-charcoal-deforestation-a.cnn</feedburner:origLink>
+    </item>
+  </channel>
+</rss>
