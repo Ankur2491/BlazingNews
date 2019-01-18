@@ -17,7 +17,7 @@ var app = express();
   console.log(newsModel.db);
 });*/
   var dbCall = function(){
-  MongoClient.connect('mongodb://localhost',function(err,client){
+  MongoClient.connect('mongodb://root:ATIhH2s9gqpc@localhost:27017',function(err,client){
   if(err) throw err;
   var db = client.db('admin');
   db.collection('News').find({}).limit(1).sort({$natural:-1}).toArray(function(err,docs){

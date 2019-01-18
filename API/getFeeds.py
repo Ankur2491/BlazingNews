@@ -7,7 +7,7 @@ import json
 import time
 from lxml import etree
 while True:
-    client = MongoClient('localhost:27017')
+    client = MongoClient('localhost:27017',username='root',password='ATIhH2s9gqpc')
     db = client.admin
     collection = db.News
     #import xml.etree.ElementTree as ET
@@ -30,7 +30,7 @@ while True:
         except:
             print "Error in Int bbc"
         #print (newsItem.findall('media:thumbnail',namespaces))
-
+    
     response = requests.get('http://rss.cnn.com/rss/edition_world.rss')
     root = etree.fromstring(response.content)
     for newsItem in root.iter('item'):
@@ -58,17 +58,19 @@ while True:
             mainData['articles'].append(data)
         except:
             print "Error in Int cnn",sys.exc_info()[0]
-
+    
     response = requests.get('http://feeds.feedburner.com/ndtvnews-world-news')
     root = etree.fromstring(response.content)
     for newsItem in root.iter('item'):
-        data = {}
-        data['title'] = newsItem.find('title').text
-        data['description'] =  newsItem.find('description').text
-        data['url'] = newsItem.find('link').text
-        data['urlToImage'] = newsItem.find('fullimage').text
-        mainData['articles'].append(data)
-
+        try:
+            data = {}
+            data['title'] = newsItem.find('title').text
+            data['description'] =  newsItem.find('description').text
+            data['url'] = newsItem.find('link').text
+            data['urlToImage'] = newsItem.find('fullimage').text
+            mainData['articles'].append(data)
+        except:
+            print "Error in ndtv"
     newsObj['news'].append(mainData)
     mainData = {"status": "ok","articles":[]}
     print "world done"
@@ -76,97 +78,117 @@ while True:
     response = requests.get('http://feeds.feedburner.com/ndtvnews-india-news')
     root = etree.fromstring(response.content)
     for newsItem in root.iter('item'):
-        data = {}
-        data['title'] = newsItem.find('title').text
-        data['description'] =  newsItem.find('description').text
-        data['url'] = newsItem.find('link').text
-        data['urlToImage'] = newsItem.find('fullimage').text
-        mainData['articles'].append(data)
+        try:
+            data = {}
+            data['title'] = newsItem.find('title').text
+            data['description'] =  newsItem.find('description').text
+            data['url'] = newsItem.find('link').text
+            data['urlToImage'] = newsItem.find('fullimage').text
+            mainData['articles'].append(data)
+        except:
+            print "Error in ndtv-India"
 
     response = requests.get('https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms')
     root = etree.fromstring(response.content)
     for newsItem in root.iter('item'):
-        data = {}
-        data['title'] = newsItem.find('title').text
-        description = newsItem.find('description').text
-        if description:
-            if "</a>" in description:
-                desc = newsItem.find('description').text.split("</a>")
-                data['description'] = desc[1]
-            else:
-                data['description'] = description
-        data['url'] = newsItem.find('link').text
-        imageUrl = newsItem.find('link').text
-        initialUrl = "https://timesofindia.indiatimes.com"
-        page = requests.get(imageUrl)
-        soup = BeautifulSoup(page.content, 'lxml')
-        html = list(soup.children)[1]
-        l = soup.find_all('section', class_='highlight clearfix')
-        if len(l)>0:
-            content=str(l[0])
-            src_index = content.index("/thumb")
-            jpg_index = content.index("jpg",src_index)
-            data['urlToImage'] = initialUrl + content[src_index:jpg_index] + "jpg"
-            mainData['articles'].append(data)
-
+        try:
+            data = {}
+            data['title'] = newsItem.find('title').text
+            description = newsItem.find('description').text
+            if description:
+                if "</a>" in description:
+                    desc = newsItem.find('description').text.split("</a>")
+                    data['description'] = desc[1]
+                else:
+                    data['description'] = description
+            data['url'] = newsItem.find('link').text
+            imageUrl = newsItem.find('link').text
+            initialUrl = "https://timesofindia.indiatimes.com"
+            page = requests.get(imageUrl)
+            soup = BeautifulSoup(page.content, 'lxml')
+            html = list(soup.children)[1]
+            l = soup.find_all('section', class_='highlight clearfix')
+            if len(l)>0:
+                content=str(l[0])
+                src_index = content.index("/thumb")
+                jpg_index = content.index("jpg",src_index)
+                data['urlToImage'] = initialUrl + content[src_index:jpg_index] + "jpg"
+                mainData['articles'].append(data)
+        except:
+            print "Error in toi"
+ 
     response = requests.get('https://www.hindustantimes.com/rss/india/rssfeed.xml')
     root = etree.fromstring(response.content)
     for newsItem in root.iter('item'):
-        data = {}
-        data['title'] = newsItem.find('title').text
-        data['description'] =  newsItem.find('description').text
-        data['url'] = newsItem.find('link').text
-        data['urlToImage'] = newsItem.find('media:content',newsItem.nsmap).attrib['url']
-        mainData['articles'].append(data)
-
+        try:
+            data = {}
+            data['title'] = newsItem.find('title').text
+            data['description'] =  newsItem.find('description').text
+            data['url'] = newsItem.find('link').text
+            data['urlToImage'] = newsItem.find('media:content',newsItem.nsmap).attrib['url']
+            mainData['articles'].append(data)
+        except:
+            print "Error in HT"
+ 
     response = requests.get('https://www.firstpost.com/rss/india.xml')
     root = etree.fromstring(response.content)
     for newsItem in root.iter('item'):
-        data = {}
-        data['title'] = newsItem.find('title').text
-        data['description'] =  newsItem.find('description').text
-        data['url'] = newsItem.find('link').text
-        data['urlToImage'] = newsItem.find('media:content',newsItem.nsmap).attrib['url']
-        if "dummy" in data['urlToImage']:
-            data['urlToImage'] = "./img/firstpostLogo.jpg"
-        mainData['articles'].append(data)
-    newsObj['news'].append(mainData)
+        try:
+            data = {}
+            data['title'] = newsItem.find('title').text
+            data['description'] =  newsItem.find('description').text
+            data['url'] = newsItem.find('link').text
+            data['urlToImage'] = newsItem.find('media:content',newsItem.nsmap).attrib['url']
+            if "dummy" in data['urlToImage']:
+                data['urlToImage'] = "./img/firstpostLogo.jpg"
+            mainData['articles'].append(data)
+        except:
+            print "Error in fp"
 
-    print "General Done"
+    print "General Done" 
+    newsObj['news'].append(mainData)
     mainData = {"status": "ok","articles":[]}
     #Business
     response = requests.get('https://www.firstpost.com/rss/business.xml')
     root = etree.fromstring(response.content)
     for newsItem in root.iter('item'):
-        data = {}
-        data['title'] = newsItem.find('title').text
-        data['description'] =  newsItem.find('description').text
-        data['url'] = newsItem.find('link').text
-        data['urlToImage'] = newsItem.find('media:content',newsItem.nsmap).attrib['url']
-        if "dummy" in data['urlToImage']:
-            data['urlToImage'] = "./img/firstpostLogo.jpg"
-        mainData['articles'].append(data)
-
+        try:
+            data = {}
+            data['title'] = newsItem.find('title').text
+            data['description'] =  newsItem.find('description').text
+            data['url'] = newsItem.find('link').text
+            data['urlToImage'] = newsItem.find('media:content',newsItem.nsmap).attrib['url']
+            if "dummy" in data['urlToImage']:
+                data['urlToImage'] = "./img/firstpostLogo.jpg"
+            mainData['articles'].append(data)
+        except:
+            print "Error in fp-business"
 
     response = requests.get('http://feeds.feedburner.com/ndtvprofit-latest')
     root = etree.fromstring(response.content)
     for newsItem in root.iter('item'):
-        data = {}
-        data['title'] = newsItem.find('title').text
-        data['description'] =  newsItem.find('description').text
-        data['url'] = newsItem.find('link').text
-        data['urlToImage'] = newsItem.find('fullimage').text
-        mainData['articles'].append(data)
+        try:
+            data = {}
+            data['title'] = newsItem.find('title').text
+            data['description'] =  newsItem.find('description').text
+            data['url'] = newsItem.find('link').text
+            data['urlToImage'] = newsItem.find('fullimage').text
+            mainData['articles'].append(data)
+        except:
+            print "Error in ndtv-profit"
 
     response = requests.get('https://www.hindustantimes.com/rss/business/rssfeed.xml')
     root = etree.fromstring(response.content)
     for newsItem in root.iter('item'):
-        data = {}
-        data['title'] = newsItem.find('title').text
-        data['description'] =  newsItem.find('description').text
-        data['url'] = newsItem.find('link').text
-        data['urlToImage'] = newsItem.find('media:content',newsItem.nsmap).attrib['url']
-        mainData['articles'].append(data)
+        try:
+            data = {}
+            data['title'] = newsItem.find('title').text
+            data['description'] =  newsItem.find('description').text
+            data['url'] = newsItem.find('link').text
+            data['urlToImage'] = newsItem.find('media:content',newsItem.nsmap).attrib['url']
+            mainData['articles'].append(data)
+        except:
+            print "Error in ht-business"
     newsObj['news'].append(mainData)
     mainData = {"status": "ok","articles":[]}
     print "Business Done"
@@ -174,37 +196,46 @@ while True:
     response = requests.get('http://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml')
     root = etree.fromstring(response.content)
     for newsItem in root.iter('item'):
-        data = {}
-        data['title'] = newsItem.find('title').text
-        data['description'] = newsItem.find('description').text
-        data['url'] = newsItem.find('link').text
-        data['publishedAt'] = newsItem.find('pubDate').text
-        data['urlToImage'] = newsItem.find('media:thumbnail',newsItem.nsmap).attrib['url']
-        mainData['articles'].append(data)
+        try:
+            data = {}
+            data['title'] = newsItem.find('title').text
+            data['description'] = newsItem.find('description').text
+            data['url'] = newsItem.find('link').text
+            data['publishedAt'] = newsItem.find('pubDate').text
+            data['urlToImage'] = newsItem.find('media:thumbnail',newsItem.nsmap).attrib['url']
+            mainData['articles'].append(data)
         #print (newsItem.findall('media:thumbnail',namespaces))
-
+        except:
+            print "Error in bbc-ent"
 
     response = requests.get('https://www.hindustantimes.com/rss/entertainment/rssfeed.xml')
     root = etree.fromstring(response.content)
     for newsItem in root.iter('item'):
-        data = {}
-        data['title'] = newsItem.find('title').text
-        data['description'] =  newsItem.find('description').text
-        data['url'] = newsItem.find('link').text
-        data['urlToImage'] = newsItem.find('media:content',newsItem.nsmap).attrib['url']
-        mainData['articles'].append(data)
-
+        try:
+            data = {}
+            data['title'] = newsItem.find('title').text
+            data['description'] =  newsItem.find('description').text
+            data['url'] = newsItem.find('link').text
+            data['urlToImage'] = newsItem.find('media:content',newsItem.nsmap).attrib['url']
+            mainData['articles'].append(data)
+        except:
+            print "Error in ht-ent"
+    ''' 
     response = requests.get('https://www.firstpost.com/rss/bollywood.xml')
     root = etree.fromstring(response.content)
     for newsItem in root.iter('item'):
-        data = {}
-        data['title'] = newsItem.find('title').text
-        data['description'] =  newsItem.find('description').text
-        data['url'] = newsItem.find('link').text
-        data['urlToImage'] = newsItem.find('media:content',newsItem.nsmap).attrib['url']
-        if "dummy" in data['urlToImage']:
-            data['urlToImage'] = "./img/firstpostLogo.jpg"
-        mainData['articles'].append(data)
+        try:
+            data = {}
+            data['title'] = newsItem.find('title').text
+            data['description'] =  newsItem.find('description').text
+            data['url'] = newsItem.find('link').text
+            data['urlToImage'] = newsItem.find('media:content',newsItem.nsmap).attrib['url']
+            if "dummy" in data['urlToImage']:
+                data['urlToImage'] = "./img/firstpostLogo.jpg"
+            mainData['articles'].append(data)
+        except:
+            print "Error in fp-ent"
+    '''
     newsObj['news'].append(mainData)
     mainData = {"status": "ok","articles":[]}
     print "Ent Done"
@@ -212,35 +243,44 @@ while True:
     response = requests.get('http://feeds.feedburner.com/ndtvcooks-latest')
     root = etree.fromstring(response.content)
     for newsItem in root.iter('item'):
-        data = {}
-        data['title'] = newsItem.find('title').text
-        data['description'] =  newsItem.find('description').text
-        data['url'] = newsItem.find('link').text
-        data['urlToImage'] = newsItem.find('fullimage').text
-        mainData['articles'].append(data)
-
+        try:
+            data = {}
+            data['title'] = newsItem.find('title').text
+            data['description'] =  newsItem.find('description').text
+            data['url'] = newsItem.find('link').text
+            data['urlToImage'] = newsItem.find('fullimage').text
+            mainData['articles'].append(data)
+	except:
+            print "Error in ndtv-cooks"
 
     response = requests.get('https://www.hindustantimes.com/rss/health-fitness/rssfeed.xml')
     root = etree.fromstring(response.content)
     for newsItem in root.iter('item'):
-        data = {}
-        data['title'] = newsItem.find('title').text
-        data['description'] =  newsItem.find('description').text
-        data['url'] = newsItem.find('link').text
-        data['urlToImage'] = newsItem.find('media:content',newsItem.nsmap).attrib['url']
-        mainData['articles'].append(data)
+        try:
+            data = {}
+            data['title'] = newsItem.find('title').text
+            data['description'] =  newsItem.find('description').text
+            data['url'] = newsItem.find('link').text
+            data['urlToImage'] = newsItem.find('media:content',newsItem.nsmap).attrib['url']
+            mainData['articles'].append(data)
+        except:
+            print "Error in ht-health"
 
     response = requests.get('http://feeds.bbci.co.uk/news/health/rss.xml')
     root = etree.fromstring(response.content)
     for newsItem in root.iter('item'):
-        data = {}
-        data['title'] = newsItem.find('title').text
-        data['description'] = newsItem.find('description').text
-        data['url'] = newsItem.find('link').text
-        data['publishedAt'] = newsItem.find('pubDate').text
-        data['urlToImage'] = newsItem.find('media:thumbnail',newsItem.nsmap).attrib['url']
-        mainData['articles'].append(data)
+        try:
+            data = {}
+            data['title'] = newsItem.find('title').text
+            data['description'] = newsItem.find('description').text
+            data['url'] = newsItem.find('link').text
+            data['publishedAt'] = newsItem.find('pubDate').text
+            data['urlToImage'] = newsItem.find('media:thumbnail',newsItem.nsmap).attrib['url']
+            mainData['articles'].append(data)
         #print (newsItem.findall('media:thumbnail',namespaces))
+        except:
+            print "Error in bbc-heath"
+
     newsObj['news'].append(mainData)
     mainData = {"status": "ok","articles":[]}
     print "Health Done"
@@ -249,26 +289,30 @@ while True:
     response = requests.get('http://feeds.bbci.co.uk/news/science_and_environment/rss.xml')
     root = etree.fromstring(response.content)
     for newsItem in root.iter('item'):
-        data = {}
-        data['title'] = newsItem.find('title').text
-        data['description'] = newsItem.find('description').text
-        data['url'] = newsItem.find('link').text
-        data['publishedAt'] = newsItem.find('pubDate').text
-        data['urlToImage'] = newsItem.find('media:thumbnail',newsItem.nsmap).attrib['url']
-        mainData['articles'].append(data)
-
-
+        try:
+            data = {}
+	    data['title'] = newsItem.find('title').text
+	    data['description'] = newsItem.find('description').text
+      	    data['url'] = newsItem.find('link').text
+	    data['publishedAt'] = newsItem.find('pubDate').text
+	    data['urlToImage'] = newsItem.find('media:thumbnail',newsItem.nsmap).attrib['url']
+            mainData['articles'].append(data)
+        except:
+            print "Error in bbc-science"
 
     response = requests.get('https://indianexpress.com/section/technology/feed/')
     root = etree.fromstring(response.content)
     for newsItem in root.iter('item'):
-        data = {}
-        data['title'] = newsItem.find('title').text
-        data['description'] = newsItem.find('description').text
-        data['url'] = newsItem.find('link').text
-        data['publishedAt'] = newsItem.find('pubDate').text
-        data['urlToImage'] = newsItem.find('media:thumbnail',newsItem.nsmap).attrib['url']
-        mainData['articles'].append(data)
+        try:
+            data = {}
+            data['title'] = newsItem.find('title').text
+            data['description'] = newsItem.find('description').text
+            data['url'] = newsItem.find('link').text
+            data['publishedAt'] = newsItem.find('pubDate').text
+            data['urlToImage'] = newsItem.find('media:thumbnail',newsItem.nsmap).attrib['url']
+            mainData['articles'].append(data)
+        except:
+            print "Error in iex-science"
     newsObj['news'].append(mainData)
     mainData = {"status": "ok","articles":[]}
     print "Science Done"
@@ -276,34 +320,41 @@ while True:
     response = requests.get('https://www.hindustantimes.com/rss/sports/rssfeed.xml')
     root = etree.fromstring(response.content)
     for newsItem in root.iter('item'):
-        data = {}
-        data['title'] = newsItem.find('title').text
-        data['description'] =  newsItem.find('description').text
-        data['url'] = newsItem.find('link').text
-        data['urlToImage'] = newsItem.find('media:content',newsItem.nsmap).attrib['url']
-        mainData['articles'].append(data)
-
+        try:
+            data = {}
+            data['title'] = newsItem.find('title').text
+            data['description'] =  newsItem.find('description').text
+            data['url'] = newsItem.find('link').text
+            data['urlToImage'] = newsItem.find('media:content',newsItem.nsmap).attrib['url']
+            mainData['articles'].append(data)
+        except:
+            print "Error in ht-sports"
 
     response = requests.get('http://feeds.feedburner.com/ndtvsports-latest')
     root = etree.fromstring(response.content)
     for newsItem in root.iter('item'):
-        data = {}
-        data['title'] = newsItem.find('title').text
-        data['description'] =  newsItem.find('description').text
-        data['url'] = newsItem.find('link').text
-        data['urlToImage'] = newsItem.find('fullimage').text
-        mainData['articles'].append(data)
-
+        try:
+            data = {}
+            data['title'] = newsItem.find('title').text
+            data['description'] =  newsItem.find('description').text
+            data['url'] = newsItem.find('link').text
+            data['urlToImage'] = newsItem.find('fullimage').text
+            mainData['articles'].append(data)
+        except:
+            print "Error in ndtv-sports"
     response = requests.get('https://indianexpress.com/section/sports/feed/')
     root = etree.fromstring(response.content)
     for newsItem in root.iter('item'):
-        data = {}
-        data['title'] = newsItem.find('title').text
-        data['description'] = newsItem.find('description').text
-        data['url'] = newsItem.find('link').text
-        data['publishedAt'] = newsItem.find('pubDate').text
-        data['urlToImage'] = newsItem.find('media:thumbnail',newsItem.nsmap).attrib['url']
-        mainData['articles'].append(data)
+        try:
+            data = {}
+            data['title'] = newsItem.find('title').text
+            data['description'] = newsItem.find('description').text
+            data['url'] = newsItem.find('link').text
+            data['publishedAt'] = newsItem.find('pubDate').text
+            data['urlToImage'] = newsItem.find('media:thumbnail',newsItem.nsmap).attrib['url']
+            mainData['articles'].append(data)
+        except:
+            print "Error in iex-sports"
     newsObj['news'].append(mainData)
     mainData = {"status": "ok","articles":[]}
     print "Sports Done"
@@ -326,33 +377,42 @@ while True:
     response = requests.get('http://feeds.feedburner.com/gadgets360-latest')
     root = etree.fromstring(response.content)
     for newsItem in root.iter('item'):
-        data = {}
-        data['title'] = newsItem.find('title').text
-        data['description'] =  newsItem.find('description').text
-        data['url'] = newsItem.find('link').text
-        data['urlToImage'] = newsItem.find('fullimage').text
-        mainData['articles'].append(data)
+        try:
+            data = {}
+            data['title'] = newsItem.find('title').text
+            data['description'] =  newsItem.find('description').text
+            data['url'] = newsItem.find('link').text
+            data['urlToImage'] = newsItem.find('fullimage').text
+            mainData['articles'].append(data)
+        except:
+            print "Error in gadgets-360"
 
     response = requests.get('https://www.hindustantimes.com/rss/tech/rssfeed.xml')
     root = etree.fromstring(response.content)
     for newsItem in root.iter('item'):
-        data = {}
-        data['title'] = newsItem.find('title').text
-        data['description'] =  newsItem.find('description').text
-        data['url'] = newsItem.find('link').text
-        data['urlToImage'] = newsItem.find('media:content',newsItem.nsmap).attrib['url']
-        mainData['articles'].append(data)
-
+        try:
+            data = {}
+            data['title'] = newsItem.find('title').text
+            data['description'] =  newsItem.find('description').text
+            data['url'] = newsItem.find('link').text
+            data['urlToImage'] = newsItem.find('media:content',newsItem.nsmap).attrib['url']
+            mainData['articles'].append(data)
+        except:
+            print "Error in ht-tech"
+    '''
     response = requests.get('https://www.techradar.com/rss')
     root = etree.fromstring(response.content)
     for newsItem in root.iter('item'):
-        data = {}
-        data['title'] = newsItem.find('title').text
-        data['description'] =  newsItem.find('description').text
-        data['url'] = newsItem.find('link').text
-        data['urlToImage'] = newsItem.find('enclosure').attrib['url']
-        mainData['articles'].append(data)
-
+        try:
+            data = {}
+            data['title'] = newsItem.find('title').text
+            data['description'] =  newsItem.find('description').text
+            data['url'] = newsItem.find('link').text
+            data['urlToImage'] = newsItem.find('enclosure').attrib['url']
+            mainData['articles'].append(data)
+        except:
+            print "Error in techradar"
+    '''
     response = requests.get('http://feeds.feedburner.com/TechCrunch/')
     root = etree.fromstring(response.content)
     for newsItem in root.iter('item'):
@@ -385,7 +445,7 @@ while True:
             mainData['articles'].append(data)
         except:
             print "Error in TechCrunch"
-
+    
     newsObj['news'].append(mainData)
     print "Tech Done"
     #json_data = json.dumps(newsObj)

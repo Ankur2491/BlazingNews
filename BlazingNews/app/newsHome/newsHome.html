@@ -7,6 +7,8 @@
                 <a href="#" class="logo">
                     <img src="./img/logo.png" alt="">
                 </a>
+	    <p>Developed by Ankur Sharma(
+            <a href="https://www.linkedin.com/in/ankur-sharma-341446b1/">Contact Me </a>)</p>
             </div>
             <div class="header-ads">
                 <img class="center-block" src="./img/ad-2.jpg" alt="">
@@ -27,7 +29,7 @@
             <!-- Main Column -->
             <div class="col-md-12">
                 <!-- section title -->
-                <div class="section-title">
+                <div id="mainNav" class="section-title">
                     <h2 class="title">Trending Posts</h2>
                     <!-- tab nav -->
                     <ul class="nav nav-tabs pull-right" role="tablist">
@@ -58,57 +60,77 @@
                     </ul>
                     <!-- /tab nav -->
                 </div>
-                </div>
-                </div>
-                </div>
+            </div>
+        </div>
+    </div>
 
-                <!-- /section title -->
-                <!-- Tab content -->
-                <div id="all" class="tab-content">
-                    <!-- tab1 -->
-                    <div class="tab-pane fade in active">
-                        <!-- row -->
-                        <div class="row" style="display:flex;flex-wrap:wrap;">
-                            <div class="col-md-3" ng-repeat="news in newsSource">
-                                <div>
-                                        <a href="{{news.url}}" target="_blank">
-                                            <img src="{{news.urlToImage}}" height="150" width="300" alt="Image not Available">
-                                        </a>
-                                        <h6>
-                                         <a href="{{news.url}}" target="_blank">
-                                          <b>{{news.title}}:</b>
-                                          <i>{{news.description}}</i>
-                                        </a>
-                                        </h6>
-                                </div>
-                                     
-
-                                    
-                                    </div>
-                        </div>
-                                <hr/>
-                                <!-- /ARTICLE -->
-                            </div>
-                        </div>
-                        <!-- /row -->
+    <!-- /section title -->
+    <!-- Tab content -->
+    <div id="all" class="tab-content">
+        <!-- tab1 -->
+        <div class="tab-pane fade in active">
+            <!-- row -->
+            <div class="container-fluid">
+            <div class="row" style="display:flex;flex-wrap:wrap;">
+                <div class="col-md-3 col-sm-6" ng-repeat="news in newsSource">
+                    <div>
+                        <table style="border: 3px solid black;">
+                            <tr>
+                                <td style="border: 3px solid black;">
+                                    <a href="{{news.url}}" target="_blank">
+                                        <img src="{{news.urlToImage}}" height="150" width="100%" alt="Image not Available">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                        <h6>
+                            <a href="{{news.url}}" target="_blank">
+                                <b style="font-family: 'Droid Serif'; font-size: 17px">{{news.title}}:</b>
+                                <i style="color:maroon;font-family: 'Playfair Display'; font-size: 15px">{{news.description}}</i>
+                            </a>
+                        </h6>
                     </div>
-                    <!-- /Main Column -->
-                
-                <!-- Tab content -->
-                <!-- END OF TABS -->
-                <!-- /ROW -->
-            
-            <!-- /CONTAINER -->
-        <!-- /SECTION -->
-        <!-- /FOOTER -->
 
-        <!-- Back to top -->
-        <div id="back-to-top"></div>
-        <!-- Back to top -->
-        <script>
-	$('#back-to-top').on("click", function(){
-		$('body,html').animate({
+
+
+                </div>
+            </div>
+	    </div>
+            <hr/>
+            <!-- /ARTICLE -->
+        </div>
+    </div>
+    <!-- /row -->
+</div>
+<!-- /Main Column -->
+
+<!-- Tab content -->
+<!-- END OF TABS -->
+<!-- /ROW -->
+
+<!-- /CONTAINER -->
+<!-- /SECTION -->
+<!-- /FOOTER -->
+
+<!-- Back to top -->
+<div id="back-to-top"></div>
+<!-- Back to top -->
+<script>
+    $('#back-to-top').on("click", function () {
+        $('body,html').animate({
             scrollTop: 0
         }, 500);
-	});
-        </script>
+    });
+    /* 
+    window.onscroll = function() {fixHeader()};
+    var navbar = document.getElementById("mainNav");
+    var sticky = navbar.offsetTop;
+    function fixHeader() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+    */
+</script>

@@ -116,7 +116,7 @@ app.factory('newsFactory',['$http','$log', function($http, $log){
   var newsService = {};
   newsService.getNewsFactory = function(source,cb){
     $http({
-      url: "http://119.82.107.253:9001/"+source,
+      url: "http://ec2-54-244-2-94.us-west-2.compute.amazonaws.com:3000/"+source,
       method: 'GET'
     }).then(function(resp){
       cb(resp.data);
