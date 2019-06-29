@@ -67,6 +67,12 @@ app.get('/technology', function(req,res){
 app.get('/all', function(req,res){
   res.send(JSON.parse(allNews).news[0].articles);
   });
+app.get('/current', function(req,res){
+  res.send(JSON.parse(allNews).news[8].articles);
+  });
+app.get('/offbeat', function(req,res){
+  res.send(JSON.parse(allNews).news[9].articles);
+  });
 
 
 app.listen(3000, () => setInterval(function(){dbCall();},120000));
