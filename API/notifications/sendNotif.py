@@ -3,7 +3,7 @@ import json
 import random
 import time
 import requests
-client = MongoClient('localhost:27017',username='root',password='ATIhH2s9gqpc')
+client = MongoClient('mongodb://localhost:27017')
 db=client.admin
 newCol=db["News"]
 x=newCol.find(sort=[('_id', -1)])
@@ -52,9 +52,10 @@ while True:
             content = "Tap to open the app"
         else:
             content = data['description']
-        postData = {'app_id':'5268fb98-e3f0-4590-b385-a7080d542381','headings':{'en': data["title"]}, 'contents': {'en': content}, 'included_segments': ["Subscribed Users"]}
+        postData = {'app_id':'5268fb98-e3f0-4590-b385-a7080d542381','headings':{'en': data["title"]}, 'contents': {'en': content}, 'data': {'targetUrl':data["url"]},'included_segments': ["Subscribed Users"],'big_picture':data["urlToImage"]}
         r = requests.post(endpoint, data=json.dumps(postData),headers=headers)
         res = r.content
+        break
     except:
         print "ERROR: rand1:",rand1,"rand2:",rand2,"postData:",postData,"Response:",res
-    time.sleep(7200)
+        break

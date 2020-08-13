@@ -2,9 +2,11 @@ var express = require('express');
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 var MongoClient = require('mongodb').MongoClient;
-var URL = 'mongodb://localhost:27017/admin';
+var URL = 'mongodb://localhost:27017';
 var allNews = null;
+var redis = require('redis')
 //create a Schema
+var client = redis.createClient();
 var newsSchema = new Schema({
   news: Array
 });
@@ -17,11 +19,12 @@ var app = express();
   console.log(newsModel.db);
 });*/
   var dbCall = function(){
-  MongoClient.connect('mongodb://root:ATIhH2s9gqpc@localhost:27017',function(err,client){
+  MongoClient.connect('mongodb://localhost:27017',function(err,client){
   if(err) throw err;
   var db = client.db('admin');
   db.collection('News').find({}).limit(1).sort({$natural:-1}).toArray(function(err,docs){
     allNews = JSON.stringify(docs[0]);
+    console.log(allNews);
     client.close();
   })
   //var cursor = db.collection('News').find();
@@ -31,12 +34,20 @@ var app = express();
 });
 }
 dbCall();
+client.get('object',function(error,result){
+    if (error) {
+        console.log(error);
+        throw error;
+    }
+console.log(result);
+});
 app.use(function(req,res,next){
   res.setHeader('Access-Control-Allow-Origin','*');
   next();
 });
 app.get('/business', function(req,res){
-
+var ip = req.connection.remoteAddress; 
+console.log(ip)
 //console.log(allNews.news[2].articles);
 res.send(JSON.parse(allNews).news[2].articles);
 });

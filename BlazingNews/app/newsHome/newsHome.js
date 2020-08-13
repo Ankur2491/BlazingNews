@@ -9,9 +9,15 @@ app.config(['$routeProvider', function($routeProvider) {
   });
 }])
 
-app.controller('newsHomeCtrl',['$scope','newsFactory',function($scope,newsFactory) {
-  newsFactory.getNewsFactory('all',function(r){
+app.controller('newsHomeCtrl',['$scope','newsFactory','keyFactory',function($scope,newsFactory,keyFactory) {
+    $scope.loading=true;
+    newsFactory.getNewsFactory('all',function(r){
     $scope.newsSource = r;
+    $scope.loading=false;
+    keyFactory.getkeyFactory(function(r){
+        $scope.keySource = r[0];
+        $scope.newsKeys = Object.keys($scope.keySource);
+    });
   });
   /*var allNews = null;
   var sportsNews = null;
@@ -26,7 +32,6 @@ app.controller('newsHomeCtrl',['$scope','newsFactory',function($scope,newsFactor
     allNews = response.data.articles;
     allNews.category = "all";
   });
-
   $http.get("http://192.168.0.108:3000/sport").then(function(response){
     sportsNews = response.data.articles;
     sportsNews.category = "sports";
@@ -36,17 +41,14 @@ app.controller('newsHomeCtrl',['$scope','newsFactory',function($scope,newsFactor
     sciNews = response.data.articles;
     sciNews.category = "science";
   });
-
   $http.get("http://192.168.0.108:3000/technology").then(function(response){
     techNews = response.data.articles;
     techNews.category = "tech";
   });
-
   $http.get("http://192.168.0.108:3000/business").then(function(response){
     bussNews = response.data.articles;
     bussNews.category = "buss";
   });
-
   $http.get("http://192.168.0.108:3000/health").then(function(response){
     healthNews = response.data.articles;
     healthNews.category = "health";
@@ -56,7 +58,6 @@ app.controller('newsHomeCtrl',['$scope','newsFactory',function($scope,newsFactor
     entNews = response.data.articles;
     entNews.category = "ENTERTAINMENT";
   });
-
   $http.get("http://192.168.0.108:3000/general").then(function(response){
     genNews = response.data.articles;
     genNews.category = "GENERAL_NEWS";
@@ -103,11 +104,22 @@ app.controller('newsHomeCtrl',['$scope','newsFactory',function($scope,newsFactor
   }
 */
 $scope.getNews = function(source){
+  $scope.loading = true;
+  $scope.newsSource = null;
   newsFactory.getNewsFactory(source,function(r){
     $scope.newsSource = r;
+    $scope.loading = false;
   });
-  
+ keyFactory.getkeyFactory(function(r){
+    let refMap = {"all":0,"general":1,"business":2,"entertainment":3,"health":4,"science":5,"technology":6,"sport":7,"offbeat":8};
+    $scope.keySource = r[refMap[source]];
+    $scope.newsKeys = Object.keys($scope.keySource);
+}); 
 };
+$scope.getKeyNews = function(key){
+    $scope.newsSource = $scope.keySource[key];
+};
+
 }]);
 
 app.factory('newsFactory',['$http','$log', function($http, $log){
@@ -116,7 +128,7 @@ app.factory('newsFactory',['$http','$log', function($http, $log){
   var newsService = {};
   newsService.getNewsFactory = function(source,cb){
     $http({
-      url: "http://ec2-54-244-2-94.us-west-2.compute.amazonaws.com:3000/"+source,
+      url: "https://blazingnews-api.herokuapp.com/"+source,
       method: 'GET'
     }).then(function(resp){
       cb(resp.data);
@@ -126,3 +138,19 @@ app.factory('newsFactory',['$http','$log', function($http, $log){
   };
   return newsService;
 }]);
+
+app.factory('keyFactory',['$http','$log', function($http, $log){
+    $log.log("Instantiating keyFactory");
+    var keyService = {};
+    keyService.getkeyFactory = function(cb){
+      $http({
+        url: "https://blazingnews-api.herokuapp.com/keyNews",
+        method: 'GET'
+      }).then(function(resp){
+        cb(resp.data);
+      },function(resp){
+        $log.error("Error");
+      });
+    };
+    return keyService;
+  }]);

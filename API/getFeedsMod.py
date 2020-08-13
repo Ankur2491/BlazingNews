@@ -7,7 +7,7 @@ import json
 import time
 from lxml import etree
 while True:
-    client = MongoClient('localhost:27017',username='root',password='ATIhH2s9gqpc')
+    client = MongoClient('mongodb://localhost:27017')
     db = client.admin
     collection = db.News
     #import xml.etree.ElementTree as ET
@@ -24,8 +24,18 @@ while True:
             data['description'] = newsItem.find('description').text
             data['url'] = newsItem.find('link').text
             data['publishedAt'] = newsItem.find('pubDate').text
-            image = ""
-            data['urlToImage'] = "./img/BBCLogo.jpg"
+            imageUrl = data['url']
+            image = "./img/BBCLogo.jpg"
+            page = requests.get(imageUrl)
+            soup = BeautifulSoup(page.content, 'lxml')
+            html = list(soup.children)[1]
+            l = soup.find_all('span', class_='image-and-copyright-container')
+            if len(l)>0:
+                content=str(l[0])
+                src_index = content.index("src=")+5
+                jpg_index = content.index("\"",src_index)
+                image = content[src_index:jpg_index]
+            data['urlToImage'] = image
             '''
             mediaGroup = newsItem.find('media:thumbnail',newsItem.nsmap)
             if mediaGroup is not None:
@@ -48,6 +58,7 @@ while True:
             data['title'] = newsItem.find('title').text+'(source:WSJ)'
             data['description'] =  newsItem.find('description').text
             data['url'] = newsItem.find('link').text
+            data['publishedAt'] = newsItem.find('pubDate').text
             data['urlToImage'] = "./img/wall-street-journal.png"
             mainData['articles'].append(data)
     except:
@@ -58,6 +69,7 @@ while True:
         for newsItem in root.iter('item'):
             data = {}
             desc = newsItem.find('description').text
+            data['publishedAt'] = newsItem.find('pubDate').text
             data['title'] = newsItem.find('title').text+'(source:News18)'
             start = desc.index('=')+2
             data['urlToImage'] =  desc[start:desc.index('\'',start)]
@@ -73,6 +85,7 @@ while True:
         for newsItem in root.iter('item'):
             data = {}
             data['title'] = newsItem.find('title').text+'(source:CNN)'
+            data['publishedAt'] = newsItem.find('pubDate').text
             desc = newsItem.find('description').text
             if "<" in desc:
                 temp_desc = desc[0:desc.index('<')]
@@ -102,6 +115,7 @@ while True:
             data['title'] = newsItem.find('title').text+'(source:NDTV)'
             data['description'] =  newsItem.find('description').text
             data['url'] = newsItem.find('link').text
+            data['publishedAt'] = newsItem.find('pubDate').text
             data['urlToImage'] = newsItem.find('fullimage').text
             mainData['articles'].append(data)
     except:
@@ -116,6 +130,7 @@ while True:
     	for newsItem in root.iter('item'):
             data = {}
             data['title'] = newsItem.find('title').text+'(source:NDTV)'
+            data['publishedAt'] = newsItem.find('pubDate').text
             data['description'] =  newsItem.find('description').text
             data['url'] = newsItem.find('link').text
             data['urlToImage'] = newsItem.find('fullimage').text
@@ -130,8 +145,20 @@ while True:
             data ={}
             data['title'] = newsItem.find('title').text+'(source:ZeeNews)'
             data['description'] = newsItem.find('description').text
+            data['publishedAt'] = newsItem.find('pubDate').text
             data['url'] = newsItem.find('link').text
-            data['urlToImage'] = './img/zeeNews.jpg'
+            imageUrl = data['url']
+            image = './img/zeeNews.jpg'
+            page = requests.get(imageUrl)
+            soup = BeautifulSoup(page.content, 'lxml')
+            html = list(soup.children)[1]
+            l = soup.find_all('div', class_='article-image-block')
+            if len(l)>0:
+                content=str(l[0])
+                src_index = content.index("src=")+5
+                jpg_index = content.index("\"",src_index)
+                image = content[src_index:jpg_index]
+            data['urlToImage'] = image
             mainData['articles'].append(data)
     except:
         print 'Error in ZeeNews'
@@ -141,6 +168,7 @@ while True:
     	for newsItem in root.iter('item'):
             data = {}
             data['title'] = newsItem.find('title').text+'(source:TOI)'
+            data['publishedAt'] = newsItem.find('pubDate').text
             description = newsItem.find('description').text
             if description:
                 if "</a>" in description:
@@ -150,16 +178,15 @@ while True:
                     data['description'] = description
             data['url'] = newsItem.find('link').text
             imageUrl = newsItem.find('link').text
-            initialUrl = "https://timesofindia.indiatimes.com"
             page = requests.get(imageUrl)
             soup = BeautifulSoup(page.content, 'lxml')
             html = list(soup.children)[1]
-            l = soup.find_all('section', class_='highlight clearfix')
+            l = soup.find_all('section', class_='_2suu5')
             if len(l)>0:
                 content=str(l[0])
-                src_index = content.index("/thumb")
+                src_index = content.index("src=")+5
                 jpg_index = content.index("jpg",src_index)
-                data['urlToImage'] = initialUrl + content[src_index:jpg_index] + "jpg"
+                data['urlToImage'] = content[src_index:jpg_index] + "jpg"
                 mainData['articles'].append(data)
     except:
         print "Error in toi"
@@ -170,6 +197,7 @@ while True:
             data ={}
             data['title'] = newsItem.find('title').text+'(source:TheHindu)'
             data['description'] = newsItem.find('description').text
+            data['publishedAt'] = newsItem.find('pubDate').text
             data['url'] = newsItem.find('link').text
             data['urlToImage'] = './img/theHindu.jpg'
             mainData['articles'].append(data)
@@ -183,6 +211,7 @@ while True:
             data['title'] = newsItem.find('title').text+'(source:HT)'
             data['description'] =  newsItem.find('description').text
             data['url'] = newsItem.find('link').text
+            data['publishedAt'] = newsItem.find('pubDate').text
             data['urlToImage'] = newsItem.find('media:content',newsItem.nsmap).attrib['url']
             mainData['articles'].append(data)
     except:
@@ -196,6 +225,7 @@ while True:
             data['title'] = newsItem.find('title').text+'(source:FP)'
             data['description'] =  newsItem.find('description').text
             data['url'] = newsItem.find('link').text
+            data['publishedAt'] = newsItem.find('pubDate').text
             data['urlToImage'] = newsItem.find('media:content',newsItem.nsmap).attrib['url']
             if "dummy" in data['urlToImage']:
                 data['urlToImage'] = "./img/firstpostLogo.jpg"
@@ -215,6 +245,7 @@ while True:
             data['title'] = newsItem.find('title').text+'(source:FP)'
             data['description'] =  newsItem.find('description').text
             data['url'] = newsItem.find('link').text
+            data['publishedAt'] = newsItem.find('pubDate').text
             data['urlToImage'] = newsItem.find('media:content',newsItem.nsmap).attrib['url']
             if "dummy" in data['urlToImage']:
                 data['urlToImage'] = "./img/firstpostLogo.jpg"
@@ -230,6 +261,7 @@ while True:
             data['title'] = newsItem.find('title').text+'(source:NDTV)'
             data['description'] =  newsItem.find('description').text
             data['url'] = newsItem.find('link').text
+            data['publishedAt'] = newsItem.find('pubDate').text
             data['urlToImage'] = newsItem.find('fullimage').text
             mainData['articles'].append(data)
     except:
@@ -242,6 +274,7 @@ while True:
             data['title'] = newsItem.find('title').text+'(source:HT)'
             data['description'] =  newsItem.find('description').text
             data['url'] = newsItem.find('link').text
+            data['publishedAt'] = newsItem.find('pubDate').text
             data['urlToImage'] = newsItem.find('media:content',newsItem.nsmap).attrib['url']
             mainData['articles'].append(data)
     except:
@@ -259,7 +292,18 @@ while True:
             data['description'] = newsItem.find('description').text
             data['url'] = newsItem.find('link').text
             data['publishedAt'] = newsItem.find('pubDate').text
-            data['urlToImage'] = "./img/BBCLogo.jpg"
+            imageUrl = data['url']
+            image = "./img/BBCLogo.jpg"
+            page = requests.get(imageUrl)
+            soup = BeautifulSoup(page.content, 'lxml')
+            html = list(soup.children)[1]
+            l = soup.find_all('span', class_='image-and-copyright-container')
+            if len(l)>0:
+                content=str(l[0])
+                src_index = content.index("src=")+5
+                jpg_index = content.index("\"",src_index)
+                image = content[src_index:jpg_index]
+            data['urlToImage'] = image
             #newsItem.find('media:thumbnail',newsItem.nsmap).attrib['url']
             mainData['articles'].append(data)
         #print (newsItem.findall('media:thumbnail',namespaces))
@@ -273,6 +317,7 @@ while True:
             data['title'] = newsItem.find('title').text+'(source:HT)'
             data['description'] =  newsItem.find('description').text
             data['url'] = newsItem.find('link').text
+            data['publishedAt'] = newsItem.find('pubDate').text
             data['urlToImage'] = newsItem.find('media:content',newsItem.nsmap).attrib['url']
             mainData['articles'].append(data)
     except:
@@ -304,6 +349,7 @@ while True:
             data = {}
             data['title'] = newsItem.find('title').text+'(source:NDTV)'
             data['description'] =  newsItem.find('description').text
+            data['publishedAt'] = newsItem.find('pubDate').text
             data['url'] = newsItem.find('link').text
             data['urlToImage'] = newsItem.find('fullimage').text
             mainData['articles'].append(data)
@@ -317,6 +363,7 @@ while True:
             data['title'] = newsItem.find('title').text+'(source:HT)'
             data['description'] =  newsItem.find('description').text
             data['url'] = newsItem.find('link').text
+            data['publishedAt'] = newsItem.find('pubDate').text
             data['urlToImage'] = newsItem.find('media:content',newsItem.nsmap).attrib['url']
             mainData['articles'].append(data)
     except:
@@ -331,7 +378,18 @@ while True:
             data['description'] = newsItem.find('description').text
             data['url'] = newsItem.find('link').text
             data['publishedAt'] = newsItem.find('pubDate').text
-            data['urlToImage'] = "./img/BBCLogo.jpg"
+            imageUrl = data['url']
+            image = "./img/BBCLogo.jpg"
+            page = requests.get(imageUrl)
+            soup = BeautifulSoup(page.content, 'lxml')
+            html = list(soup.children)[1]
+            l = soup.find_all('span', class_='image-and-copyright-container')
+            if len(l)>0:
+                content=str(l[0])
+                src_index = content.index("src=")+5
+                jpg_index = content.index("\"",src_index)
+                image = content[src_index:jpg_index]
+            data['urlToImage'] = image
             #newsItem.find('media:thumbnail',newsItem.nsmap).attrib['url']
             mainData['articles'].append(data)
         #print (newsItem.findall('media:thumbnail',namespaces))
@@ -351,7 +409,18 @@ while True:
 	    data['description'] = newsItem.find('description').text
       	    data['url'] = newsItem.find('link').text
 	    data['publishedAt'] = newsItem.find('pubDate').text
-	    data['urlToImage'] = "./img/BBCLogo.jpg"
+	    imageUrl = data['url']
+            image = "./img/BBCLogo.jpg"
+            page = requests.get(imageUrl)
+            soup = BeautifulSoup(page.content, 'lxml')
+            html = list(soup.children)[1]
+            l = soup.find_all('span', class_='image-and-copyright-container')
+            if len(l)>0:
+                content=str(l[0])
+                src_index = content.index("src=")+5
+                jpg_index = content.index("\"",src_index)
+                image = content[src_index:jpg_index]
+            data['urlToImage'] = image
             #newsItem.find('media:thumbnail',newsItem.nsmap).attrib['url']
             mainData['articles'].append(data)
     except:
@@ -395,6 +464,7 @@ while True:
             data['title'] = newsItem.find('title').text+'(source:NDTV)'
             data['description'] =  newsItem.find('description').text
             data['url'] = newsItem.find('link').text
+            data['publishedAt'] = newsItem.find('pubDate').text
             data['urlToImage'] = newsItem.find('fullimage').text
             mainData['articles'].append(data)
     except:
@@ -439,7 +509,18 @@ while True:
             data['description'] = newsItem.find('description').text
             data['url'] = newsItem.find('link').text
             data['publishedAt'] = newsItem.find('pubDate').text
-            data['urlToImage'] = "./img/BBCLogo.jpg"
+            imageUrl = data['url']
+            image = "./img/BBCLogo.jpg"
+            page = requests.get(imageUrl)
+            soup = BeautifulSoup(page.content, 'lxml')
+            html = list(soup.children)[1]
+            l = soup.find_all('span', class_='image-and-copyright-container')
+            if len(l)>0:
+               content=str(l[0])
+               src_index = content.index("src=")+5
+               jpg_index = content.index("\"",src_index)
+               image = content[src_index:jpg_index]
+            data['urlToImage'] = image
             #newsItem.find('media:thumbnail',newsItem.nsmap).attrib['url']
             mainData['articles'].append(data)
     except:
@@ -452,6 +533,7 @@ while True:
             data['title'] = newsItem.find('title').text+'(source:Gadgets360)'
             data['description'] =  newsItem.find('description').text
             data['url'] = newsItem.find('link').text
+            data['publishedAt'] = newsItem.find('pubDate').text
             data['urlToImage'] = newsItem.find('fullimage').text
             mainData['articles'].append(data)
     except:
@@ -467,6 +549,7 @@ while True:
             data['title'] = newsItem.find('title').text+'(source:WSJ)'
             data['description'] =  newsItem.find('description').text
             data['url'] = newsItem.find('link').text
+            data['publishedAt'] = newsItem.find('pubDate').text
             data['urlToImage'] = "./img/wall-street-journal.png"
             mainData['articles'].append(data)
     except:
@@ -491,6 +574,7 @@ while True:
     	for newsItem in root.iter('item'):
             data = {}
             data['title'] = newsItem.find('title').text+'(source:TechCrunch)'
+            data['publishedAt'] = newsItem.find('pubDate').text
             tc_desc = newsItem.find('description').text
             temp = re.sub("&#8230;","...",tc_desc)
             temp = re.sub("&#8217;","'",temp)
@@ -548,6 +632,7 @@ while True:
             data['description'] = newsItem.find('description').text
             data['urlToImage'] = newsItem.find('fullimage').text
             data['url'] = newsItem.find('link').text
+            data['publishedAt'] = newsItem.find('pubDate').text
             mainData['articles'].append(data)
     except:
         print 'Error in NDTV Offbeat'
@@ -559,6 +644,7 @@ while True:
             data = {}
             data['title'] = newsItem.find('title').text+'(source:ScienceDaily)'
             data['description'] = newsItem.find('description').text
+            data['publishedAt'] = newsItem.find('pubDate').text
             image = newsItem.find('media:thumbnail',newsItem.nsmap)
             if image is not None:
                 data['urlToImage'] = image.attrib['url']
